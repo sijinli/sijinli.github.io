@@ -3,10 +3,9 @@ layout: post
 title: Sijin
 ---
 
-# Research Resources [here][1]
-
-## OPtimization
-
+# Books
+---
+## Optimization
 + [Convex Optimization by Sebastien Bubeck][2]
 
 
