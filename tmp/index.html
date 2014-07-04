@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    Hello WOrlds
+    Hello worlds
     Welcome to Html5 Learning
     <section>
       <h1> D</h1>
@@ -26,7 +26,19 @@
 	</footer>
 
     </article>
-</body>
+    <canvas id="myCanvas" width="200" height="200"
+	    style="border:1px solid #000000;">
+    </canvas>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.moveTo(0,0)
+      ctx.lineTo(200,50)
+    </script>
+
+  </body>
+
+
 
 <nav>
 <a href="http://www.baidu.com">baidu</a> |
