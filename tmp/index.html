@@ -5,7 +5,7 @@
     <title>Hello Worlds</title>
   </head>
 
-  <body>
+  <body onLoad=init()>
     Hello worlds
     Welcome to Html5 Learning
     <section>
@@ -17,40 +17,97 @@
       <header>
 	<h1>In side article header</h1>
       </header>
-	<h1> Here is the article part </h1>
-	<p> Any difference </p>
+      <h1> Here is the article part </h1>
+      <p> Any difference </p>
 
-	<footer>
-	  <p>Try footer</p>
-	  <p><time pubdate datetime="2014-07-04"></time></p>
-	</footer>
+      <footer>
+	<p>Try footer</p>
+	<p><time pubdate datetime="2014-05-23"></time></p>
+      </footer>
 
     </article>
     <canvas id="myCanvas" width="200" height="200"
-    	    style="border:1px solid #000000;">
+	    style="border:1px solid #000000;">
     </canvas>
     <script>
+      function init() {
       var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
       ctx.moveTo(0,0);
       ctx.lineTo(200,200);
       ctx.stroke();
-   </script>
+      c.addEventListener("mousedown", onclickcanvas, false);
+      }
+      function onclickcanvas(event) {
+      <!-- var c = document.getElementById(id); -->
+      var x = event.pageX;
+      var y = event.pageY;
+      write_debug(x.toString().concat("  y =" + y.toString()));
+      }
+      <!-- ctx.fillStyle = "#FF0000"; -->
+      <!-- ctx.fillRect(0,0,150,75); -->
+    </script>
+    <p id="debug"> -------------  </p>
+    <script>
+      function write_debug(s) {
+      var c = document.getElementById("debug");
+      c.innerHTML = s;
+      }
+      function callbutton(bid) {
+      var c = document.getElementById("myCanvas");
+      <!-- var bc = document.getElementById(bid.toString()); -->
+      var bc = document.getElementById("b1");
+      write_debug('---------');
+      if ( typeof callbutton.counter == 'undefined' ) {
+      callbutton.counter = 0;
+      }
+
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      if (callbutton.counter == 0) {
+      ctx.fillStyle = "#00FF00";
+      bc.innerHTML = "I am a button (green)";
+      } else {
+      ctx.fillStyle = "#0000FF";
+      bc.innerHTML = "I am a button (blue)";
+      }
+      ctx.fillRect(50,50,150,150);
+      callbutton.counter = 1 - callbutton.counter;
+      }
+      function toggletext(id) {
+      var c = document.getElementById(id);
+      if(c.style.display == "none") {
+      c.style.display = "";
+      }
+      else {
+      c.style.display = "none";
+      }
+      }
+    </script>
+    <button id="b1" onclick="callbutton(this.id)"  type="button"> I am a button </button>
   </body>
+  <nav>
+    [<a href="javascript:toggletext('showing-text')" target="_self"> Showing Text</a>]
+  </nav>
 
+  <div class="blockcontent" id="showing-text" style="display:none;color:#00FF00">
+    <pre>
+      Hello, you can see me. Ha ha ha 
+    </pre>
+  </div>
 
-<nav>
-<a href="http://www.baidu.com">baidu</a> |
-<a href="http://www.youtube.com">youtube</a> |
-<a href="http://www.google.com">Google</a> |
-<a href="http://itsuper7.wordpress.com">itsuper</a>
-</nav>
+  <nav>
+    <a href="http://www.baidu.com">baidu</a> |
+    <a href="http://www.youtube.com">youtube</a> |
+    <a href="http://www.google.com">Google</a> |
+    <a href="http://itsuper7.wordpress.com">itsuper</a>
+  </nav>
 
-<p>My family and I visited The Epcot center this summer.</p>
+  <p>My family and I visited The Epcot center this summer.</p>
 
-<aside>
-  <h4>aside</h4>
-  <p>Here I try aside .</p>
-</aside>
+  <aside>
+    <h4>aside</h4>
+    <p>Here I try aside .</p>
+  </aside>
 
 </html>
