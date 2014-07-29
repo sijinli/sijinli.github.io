@@ -20,6 +20,8 @@ title: Sijin
 
 
 # Algorithm
+---
+
 ## Clustering
 [Clustering by fast search and find fo density peak][3]
 
