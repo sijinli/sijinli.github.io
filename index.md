@@ -3,6 +3,9 @@ layout: post
 title: Sijin
 ---
 
+* auto-gen TOC:
+{:toc}
+
 # Books
 ---
 
