@@ -1,0 +1,5 @@
+#+BEGIN_SRC sh
+g++ -c -fPIC test_pyDictGet.cc -o test_pyDictGet.o -lpython
+g++ -shared  -o test_pyDictGet.so  test_pyDictGet.o  
+#+END_SRC
+
