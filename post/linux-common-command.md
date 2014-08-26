@@ -10,6 +10,5 @@ title: Sijin
 
 Or simply use 
 
-'''shell
-rpm -qa | sort | grep libname
-'''
+    rpm -qa | sort | grep libname
+
