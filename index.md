@@ -11,6 +11,7 @@ title: Sijin
 [2]: http://www.robots.ox.ac.uk/~vedaldi/assets/svm-struct-matlab/tutorial/ssvm-tutorial-handout.pdf
 [3]: https://gist.github.com/jdeng/d2c538e4cab6dd75bf34
 [4]: http://nuweb.neu.edu/ypetrov/most-important-vision-papers.html
+[5]: http://www.amazon.com/Statistical-Models-Practice-David-Freedman/dp/0521743850
 
 # Books
 ---
@@ -19,7 +20,8 @@ title: Sijin
 
 [Convex Optimization by Sebastien Bubeck][1]
 
-
+## Statistics
+[Statistical Models Theory and Practice][5]
 # Good Tutorial
 ---
 
