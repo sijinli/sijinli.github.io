@@ -12,3 +12,6 @@ Or simply use
 
     rpm -qa | sort | grep libname
 
+Another way is to use 
+
+    yum list installed | grep software-name
