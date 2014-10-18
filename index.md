@@ -12,6 +12,7 @@ title: Sijin
 [3]: https://gist.github.com/jdeng/d2c538e4cab6dd75bf34
 [4]: http://nuweb.neu.edu/ypetrov/most-important-vision-papers.html
 [5]: http://www.amazon.com/Statistical-Models-Practice-David-Freedman/dp/0521743850
+[6]: http://alex.smola.org/papers/2003/SmoSch03b.pdf
 
 # Books
 ---
@@ -30,6 +31,8 @@ title: Sijin
 
 [SSVM tutorial handout by Andrea Vedaldi,University of Oxford][2]
 
+## SVM && regression
+[A Tutorial on Suppport Vector Regression][6]
 
 # Algorithm
 ---
