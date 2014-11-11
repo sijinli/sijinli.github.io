@@ -43,7 +43,7 @@ title: Sijin
 
 
 # Deep Learning
-[Jordan][8]
+[Jordan at reddit][8]
 
 [Hinton at reddit][7]       
 
