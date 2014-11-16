@@ -1,6 +1,6 @@
 ---
-layout:post
-title:Resources
+layout:default
+title: Resources
 ---
 
 
