@@ -8,9 +8,9 @@ title: All post
 
 Here is 
 
-[How to write make file]({{ site.baseurl }}/_post/how-to-write-makefile.html)
+[How to write make file]({{ site.baseurl }}/posts/how-to-write-makefile.html)
 
-[How to write make file]({{ site.baseurl }}/_post/linux-common-command.html)
+[How to write make file]({{ site.baseurl }}/posts/linux-common-command.html)
 
 
 <div id="home">
