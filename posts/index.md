@@ -10,7 +10,7 @@ Here is
 
 [How to write make file]({{ site.baseurl }}/posts/how-to-write-makefile.html)
 
-[How to write make file]({{ site.baseurl }}/posts/linux-common-command.html)
+[Linux Common Command]({{ site.baseurl }}/posts/linux-common-command.html)
 
 
 <div id="home">
