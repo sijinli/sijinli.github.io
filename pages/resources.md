@@ -1,7 +1,20 @@
 ---
-layout:default
+layout: default
 title: Resources
 ---
+
+* auto-gen TOC:
+{:toc}
+
+
+[1]: http://www.princeton.edu/~sbubeck/Bubeck14.pdf
+[2]: http://www.robots.ox.ac.uk/~vedaldi/assets/svm-struct-matlab/tutorial/ssvm-tutorial-handout.pdf
+[3]: https://gist.github.com/jdeng/d2c538e4cab6dd75bf34
+[4]: http://nuweb.neu.edu/ypetrov/most-important-vision-papers.html
+[5]: http://www.amazon.com/Statistical-Models-Practice-David-Freedman/dp/0521743850
+[6]: http://alex.smola.org/papers/2003/SmoSch03b.pdf
+[7]: http://www.reddit.com/r/MachineLearning/comments/2lmo0l/ama_geoffrey_hinton/
+[8]: http://www.reddit.com/r/MachineLearning/comments/2fxi6v/ama_michael_i_jordan
 
 
 # Books
