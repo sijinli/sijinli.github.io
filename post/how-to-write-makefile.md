@@ -3,7 +3,6 @@ layout: post
 title: How to write Make file
 ---
 
-
 ## Meaning for special parameters
 ------
 
