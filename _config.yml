@@ -1,6 +1,2 @@
 markdown: kramdown
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
+pygments: true
