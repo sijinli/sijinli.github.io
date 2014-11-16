@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sijin
+title: CentOS
 ---
 
 ## CentOS
