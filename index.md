@@ -16,7 +16,7 @@ title: Sijin
 [7]: http://www.reddit.com/r/MachineLearning/comments/2lmo0l/ama_geoffrey_hinton/
 [8]: http://www.reddit.com/r/MachineLearning/comments/2fxi6v/ama_michael_i_jordan
 
-# Posts
+
 
 <div id="home">
   <h1>Blog Posts</h1>
