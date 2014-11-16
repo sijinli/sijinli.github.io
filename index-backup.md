@@ -17,18 +17,6 @@ title: Sijin
 [8]: http://www.reddit.com/r/MachineLearning/comments/2fxi6v/ama_michael_i_jordan
 
 
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
- 
-
-
 # Books
 ---
 
