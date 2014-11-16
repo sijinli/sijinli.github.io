@@ -8,4 +8,4 @@ title: All post
 
 Here is 
 
-[link]({{ site.baseurl }}/{{ how-to-write-makefile.url }})
+[link]({{ site.baseurl }}/how-to-write-makefile.url)
