@@ -11,7 +11,7 @@ title: Sijin
 [resources]({{site.baseurl}}/pages/resources.html)
 
 <html>
-<body background="http://wenwen.soso.com/p/20100902/20100902230648-1485354190.jpg">
+<body background="{{site.baseurl}}/images/sky.jpeg">
 <itsuper space>
 </body>
 </html>
