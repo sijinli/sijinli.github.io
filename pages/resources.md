@@ -15,7 +15,8 @@ title: Resources
 [6]: http://alex.smola.org/papers/2003/SmoSch03b.pdf
 [7]: http://www.reddit.com/r/MachineLearning/comments/2lmo0l/ama_geoffrey_hinton/
 [8]: http://www.reddit.com/r/MachineLearning/comments/2fxi6v/ama_michael_i_jordan
-
+[9]: http://www.reddit.com/r/MachineLearning/comments/25lnbt/ama_yann_lecun
+[10]:http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio
 
 # Books
 ---
@@ -49,7 +50,9 @@ title: Resources
 
 [Hinton at reddit][7]       
 
+[Yenn LeCun at reddit][9]
 
+[Yoshua Bengio at reddit][10]
 
 # Paper/article collection
 ---  
