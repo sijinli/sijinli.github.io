@@ -19,10 +19,11 @@ body {
          height:100%;
 }
 
-#div1 {   
+div1 {   
     background-image:url('{{site.baseurl}}/images/sky.jpeg');
-    width:100%
-    height:100%
+	background-repeat:no-repeat;
+
+	background-size:cover;
 }    
 
 p {    
