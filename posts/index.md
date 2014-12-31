@@ -11,6 +11,7 @@ Here is
 [How to write make file]({{ site.baseurl }}/posts/how-to-write-makefile.html)
 
 [Linux Common Command]({{ site.baseurl }}/posts/linux-common-command.html)
+
 [Linux Notes]({{ site.baseurl }}/posts/linux-notes.html)
 
 <div id="home">
