@@ -17,6 +17,7 @@ title: Resources
 [8]: http://www.reddit.com/r/MachineLearning/comments/2fxi6v/ama_michael_i_jordan
 [9]: http://www.reddit.com/r/MachineLearning/comments/25lnbt/ama_yann_lecun
 [10]:http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio
+[11]:http://ipg.epfl.ch/~seeger/lapmalmainweb/papers/bayesgp-tut.pdf
 
 # Books
 ---
@@ -54,9 +55,12 @@ title: Resources
 
 [Yoshua Bengio at reddit][10]
 
+
+
 # Paper/article collection
 ---  
   
 + [Top 100 papers in Vision Science][4]
 
++ [Gaussian Process for machine learning][11]
 
