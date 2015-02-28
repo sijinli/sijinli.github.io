@@ -15,6 +15,7 @@ title: Sijin
 <!-- <body background="{{site.baseurl}}/images/sky.jpeg"> -->
 <style>    
 
+
 html {   
     background-image:url('{{site.baseurl}}/images/sky.jpeg');
 	background-repeat:no-repeat;
