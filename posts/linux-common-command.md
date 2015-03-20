@@ -24,9 +24,15 @@ If the file is in elf format
 
 	readelf -Ws /usr/local/cuda/lib64/libcudart.so | grep Device
 
+or (because You only should extract those that are defined in this .so file, not in the libraries referenced by it. Seventh column should contain a number in this case [Here](http://stackoverflow.com/questions/34732/how-do-i-list-the-symbols-in-a-so-file))
+	
+	readelf -Ws /usr/local/cuda/lib64/libcudart.so | awk '{print $8} | grep Device'
+
 For C++ functions
 	
 	nm -gC libname.so
+	
+
 
 
 ## Text
