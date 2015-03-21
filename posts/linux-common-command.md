@@ -32,7 +32,13 @@ For C++ functions
 	
 	nm -gC libname.so
 	
+## Media
 
+### How to convert videos in Ubuntu
+
+Use avconv
+
+	avconv -i input.avi -s WxH  output.mov
 
 
 ## Text
