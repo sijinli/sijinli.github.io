@@ -22,27 +22,27 @@ title: Resources
 # Books
 ---
 
-## Optimization
+### Optimization
 
 [Convex Optimization by Sebastien Bubeck][1]
 
-## Statistics
+### Statistics
 [Statistical Models Theory and Practice][5]
 
 # Good Tutorial
 ---
 
-## SVM && Structed Prediction
+### SVM && Structed Prediction
 
 [SSVM tutorial handout by Andrea Vedaldi,University of Oxford][2]
 
-## SVM && regression
+### SVM && regression
 [A Tutorial on Suppport Vector Regression][6]
 
 # Algorithm
 ---
 
-## Clustering
+### Clustering
 [Clustering by fast search and find fo density peak][3]
 
 
