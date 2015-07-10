@@ -17,7 +17,13 @@ Another way is to use
     yum list installed | grep software-name
 	
 ## General
+### Delete many files under some folder
 
+    find FOLDER_PATH -name "*.png" -print0 | xargs -0 rm
+
+	find FOLDER_PATH -name "*.png" -delete
+	
+	
 ### How to find the functions in .so file
 
 If the file is in elf format
