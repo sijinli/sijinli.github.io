@@ -17,6 +17,11 @@ Another way is to use
     yum list installed | grep software-name
 	
 ## General
+### How to send large files to remote computer
+	
+	rsync --append --progress  SOURCE_FILE_PATH TARGET_FILE_PATH
+    
+    		
 ### Delete many files under some folder
 
     find FOLDER_PATH -name "*.png" -print0 | xargs -0 rm
