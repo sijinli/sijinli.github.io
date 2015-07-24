@@ -51,6 +51,9 @@ Use avconv
 
 	avconv -i input.avi -s WxH  output.mov
 
+convert images to videos
+
+        avconv -r 10 -start_number 1 -framerate 10 -i IMAGE_FOLDER/det_%d.png -b:v 1000k -s 640x360 result.mov
 
 ## Text
 
