@@ -6,15 +6,33 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 
 
 <body>
+    <script>
+      function togglevideo(id) {
+      if (typeof togglevideo.counter == 'undefined') {
+      togglevideo.counter = 0;
+      }
+      var v1 = document.getElementById(id);
+      if (togglevideo.counter == 0) {
+      v1.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
+      } else {
+      v1.innerHTML = "None"
+      }
+      togglevideo.counter = 1 - togglevideo.counter;
+      }
+    </script>
 <h>Previous blogs</h>
   <nav>
     <a href="https://itsuper7.wordpress.com">Blog in wordpress</a> |
     <a href="http://itsuper7.ruhoh.com/">Blog built with ruhoh </a> 
+    [<a href="javascript:togglevideo('v1')" target="_self"> Chinese Paladin 6 </a>]
   </nav>
   <div class="blockcontent" id="showing-text" style="display:none;color:#00FF00">
     <pre>
 
     </pre>
+  </div>
+  
+  <div class="blockcontent" id="v1">
   </div>
 
 </body>
