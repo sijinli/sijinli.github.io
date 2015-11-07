@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      #buttons {
+        position: absolute;
+        left: 10px;
+        top: 0px;
+      }
+      button {
+        margin-top: 10px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="buttons">
+      <button id="toBlue">
+        Move red box to blue group
+      </button>
+      <button id="toYellow">
+        Move red box to yellow group
+      </button>
+    </div>
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>
+    <script defer="defer">
+      var stage = new Kinetic.Stage({
+        container: 'container',
+        width: 578,
+        height: 200
+      });
+      var layer = new Kinetic.Layer();
+      var yellowGroup = new Kinetic.Group({
+        x: 200,
+        y: 100,
+        draggable: true
+      });
+      var blueGroup = new Kinetic.Group({
+        x: 400,
+        y: 80,
+        draggable: true
+      });
+
+      var box = new Kinetic.Rect({
+        x: 10,
+        y: 10,
+        width: 100,
+        height: 50,
+        fill: 'red',
+        stroke: 'black'
+      });
+
+      var yellowCircle = new Kinetic.Circle({
+        x: 0,
+        y: 0,
+        radius: 50,
+        fill: 'yellow',
+        stroke: 'black'
+      });
+
+      var blueCircle = new Kinetic.Circle({
+        x: 0,
+        y: 0,
+        radius: 50,
+        fill: 'blue',
+        stroke: 'black'
+      });
+
+      // build node tree
+      yellowGroup.add(yellowCircle);
+      yellowGroup.add(box);
+      blueGroup.add(blueCircle);
+      layer.add(yellowGroup);
+      layer.add(blueGroup);
+      stage.add(layer);
+
+      // add button event bindings
+      document.getElementById('toBlue').addEventListener('click', function() {
+        box.moveTo(blueGroup);
+        layer.draw();
+      }, false);
+
+      document.getElementById('toYellow').addEventListener('click', function() {
+        box.moveTo(yellowGroup);
+        layer.draw();
+      }, false);
+    </script>
+  </body>
+</html>
