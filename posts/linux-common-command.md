@@ -16,9 +16,24 @@ Another way is to use
     yum list installed | grep software-name
 	
 ## General
+<<<<<<< HEAD
 ### How to login with SSH without password
 
   [Check here](http://www.linuxproblem.org/art_9.html)
+=======
+### How to send large files to remote computer
+	
+	rsync --append --progress  SOURCE_FILE_PATH TARGET_FILE_PATH
+    
+    		
+### Delete many files under some folder
+
+    find FOLDER_PATH -name "*.png" -print0 | xargs -0 rm
+
+	find FOLDER_PATH -name "*.png" -delete
+	
+	
+>>>>>>> eabe5f1d65a72c7bf44f7da49691258d54d2e156
 ### How to find the functions in .so file
 
 If the file is in elf format
@@ -41,6 +56,9 @@ Use avconv
 
 	avconv -i input.avi -s WxH  output.mov
 
+convert images to videos
+
+        avconv -r 10 -start_number 1 -framerate 10 -i IMAGE_FOLDER/det_%d.png -b:v 1000k -s 640x360 result.mov
 
 ## Text
 
