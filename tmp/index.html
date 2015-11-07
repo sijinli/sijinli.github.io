@@ -87,6 +87,19 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       c.style.display = "none";
       }
       }
+      function togglevideo(id) {
+      var c = document.getElementById(id);
+      if (typeof togglevideo.counter == 'undefined') {
+      togglevideo.counter = 0;
+      }
+      var v1 = document.getElementById("v1");
+      if (togglevideo.counter == 0) {
+      v1.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
+      } else {
+      v1.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
+      }
+      togglevideo.counter = 1 - togglevideo.counter;
+      }
     </script>
     <button id="b1" onclick="callbutton(this.id)"  type="button"> I am a button </button>
   </body>
@@ -109,7 +122,12 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 
   <p>My family and I visited The Epcot center this summer.</p>
   Chinese Paladin
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe></html>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe>
+
+  <div class="blockcontent" id="showing-video" style="display:none;color:#00FF00">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4uFbVqYTxwA?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe>
+  </div>
+
   <aside>
     <h4>aside</h4>
     <p>Here I try aside .</p>
