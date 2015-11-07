@@ -88,15 +88,14 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       }
       }
       function togglevideo(id) {
-      var c = document.getElementById(id);
       if (typeof togglevideo.counter == 'undefined') {
       togglevideo.counter = 0;
       }
-      var v1 = document.getElementById("v1");
+      var v1 = document.getElementById(id);
       if (togglevideo.counter == 0) {
       v1.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
       } else {
-      v1.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
+      v1.innerHTML = "None"
       }
       togglevideo.counter = 1 - togglevideo.counter;
       }
@@ -107,11 +106,23 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
     [<a href="javascript:toggletext('showing-text')" target="_self"> Showing Text</a>]
   </nav>
 
+
+  <nav>
+    [<a href="javascript:togglevideo('v1')" target="_self"> Showing Text</a>]
+  </nav>
+
   <div class="blockcontent" id="showing-text" style="display:none;color:#00FF00">
     <pre>
       Hello, you can see me. Ha ha ha 
     </pre>
   </div>
+
+  <div class="blockcontent" id="v1">
+    <pre>
+     v1
+    </pre>
+  </div>
+
 
   <nav>
     <a href="http://www.baidu.com">baidu</a> |
@@ -120,7 +131,6 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
     <a href="http://itsuper7.wordpress.com">itsuper</a>
   </nav>
 
-  <p>My family and I visited The Epcot center this summer.</p>
   Chinese Paladin
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe>
 
