@@ -99,11 +99,6 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       }
       togglevideo.counter = 1 - togglevideo.counter;
       }
-      var canvas = document.getElementById('testcolortest');
-      var context = canvas.getContext('2d');
-      context.font = '40pt Calibri';
-      context.fillStyle = 'blue';
-      context.fillText('Hello World!', 150, 100);
     </script>
     <button id="b1" onclick="callbutton(this.id)"  type="button"> I am a button </button>
   </body>
@@ -141,7 +136,13 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
   </div>
 
   <canvas id="textcolortest" width="578" height="200"></canvas>
-
+<script>
+      var canvas = document.getElementById('testcolortest');
+      var context = canvas.getContext('2d');
+      context.font = '40pt Calibri';
+      context.fillStyle = 'blue';
+      context.fillText('Hello World!', 150, 100);
+</script>
   <aside>
     <h4>aside</h4>
     <p>Here I try aside .</p>
