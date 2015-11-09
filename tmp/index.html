@@ -47,6 +47,17 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       var x = event.pageX;
       var y = event.pageY;
       write_debug(x.toString().concat("  y =" + y.toString()));
+      if (typeof onclickcanvas.x == 'undefined') {
+      onclickcanvas.x = x;
+      onclickcanvas.y = y;
+      }
+      c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d")
+      ctx.moveTo(onclickcanvas.x,onclickcanvas.y)
+      ctx.lineTo(x,y);
+      onclickcanvas.x = x;
+      onclickcanvas.y = y;
+      ctx.stroke()
       }
       <!-- ctx.fillStyle = "#FF0000"; -->
       <!-- ctx.fillRect(0,0,150,75); -->
