@@ -44,15 +44,17 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       }
       function onclickcanvas(event) {
       <!-- var c = document.getElementById(id); -->
-      var x = event.pageX;
-      var y = event.pageY;
+      c = document.getElementById("myCanvas");
+      var rect = c.getBoundingClientRect()
+      var x = event.pageX - rect.left;
+      var y = event.pageY - rect.top;
       write_debug(x.toString().concat("(Locatoin is not correct:TODO FIND LOC in canvas)  y:" + y.toString()));
       if (typeof onclickcanvas.x == 'undefined') {
       onclickcanvas.x = x;
       onclickcanvas.y = y;
       }
 
-      c = document.getElementById("myCanvas");
+
       var ctx = c.getContext("2d")
       ctx.moveTo(onclickcanvas.x,onclickcanvas.y)
       ctx.lineTo(x,y);
