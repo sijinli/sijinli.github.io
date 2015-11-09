@@ -99,6 +99,11 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       }
       togglevideo.counter = 1 - togglevideo.counter;
       }
+      var canvas = document.getElementById('testcolortest');
+      var context = canvas.getContext('2d');
+      context.font = '40pt Calibri';
+      context.fillStyle = 'blue';
+      context.fillText('Hello World!', 150, 100);
     </script>
     <button id="b1" onclick="callbutton(this.id)"  type="button"> I am a button </button>
   </body>
@@ -134,6 +139,8 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
   <div class="blockcontent" id="showing-video" style="display:none;color:#00FF00">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4uFbVqYTxwA?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe>
   </div>
+
+  <canvas id="textcolortest" width="578" height="200"></canvas>
 
   <aside>
     <h4>aside</h4>
