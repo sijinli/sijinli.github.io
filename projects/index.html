@@ -22,6 +22,13 @@ p.ex {
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     padding: 15px;
+
+#example2 {
+    background-color: #FFFFFF;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    width:900px;
 }
 </style>
 
@@ -38,10 +45,11 @@ Human pose estimation is a popular research topic in computer vision with wide p
 We propose a heterogeneous multi-task learning framework for 2d human pose estimation from monocular images using a deep convolutional neural network which combines regression and part detection into a united model. In particular, we simultaneously learn a human pose regressor and sliding-window body-part and joint-point detectors in a deep network architecture. We show that including the detection tasks helps to regularize the network, directing it to converge to a good solution. We report competitive and state-of-art results on several datasets. We also empirically show that the learned neurons in the middle layer of our network are tuned to localized body parts.
 </p>
 
-<div style="width:900;">
-<img src="http://visal.cs.cityu.edu.hk/wp/wp-content/uploads/avgconv2.png" alt="avgconv2" style="width:404px;height:218;" align="middle" hspace="80">
-<img src="http://visal.cs.cityu.edu.hk/wp/wp-content/uploads/avgconv3.png" alt="avgconv3" style="width:404px;height:218;" align="middle">
+<div id="example2">
+<img src="http://visal.cs.cityu.edu.hk/wp/wp-content/uploads/avgconv2.png" alt="avgconv2" style="width:404px;height:218px;" align="left" hspace="80">
+<img src="http://visal.cs.cityu.edu.hk/wp/wp-content/uploads/avgconv3.png" alt="avgconv3" style="width:404px;height:218px;" align="right">
 </div>
+<br>
 <p class="ex">
 In general, recovering 3D pose from 2D RGB images is considered more difficult than 2D pose estimation, due to the larger 3D pose space, more ambiguities, and the ill-posed problem due to the irreversible perspective projection. Although using depth maps has been shown to be effective for 3D human pose estimation, the majority of the media on the Internet is still in 2D RGB format. We extend our multi-task framework for 3D human pose estimation from monocular images. We train the network using two strategies: 1) a multi-task framework that jointly trains pose regression and body part detectors; 2) a pre-training strategy where the pose regressor is initialized using a network trained for body part detection. We compare our network on a large data set and achieve significant improvement over baseline methods.
 </p>
