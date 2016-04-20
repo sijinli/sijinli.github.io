@@ -4,7 +4,7 @@ title: Linux notes
 ---
 
 
-# What's the difference between ld_libarary_path and library_path
+### ld_libarary_path vs library_path
 
 <cite>
 LIBRARY_PATH is used by gcc before compilation to search for directories containing libraries that need to be linked to your program.
