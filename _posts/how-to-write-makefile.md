@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: How to write Make file
+comments: true
 ---
 
 ## Meaning for special parameters

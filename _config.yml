@@ -9,3 +9,5 @@ gems:
 pages_list:       
   About: '/about'
   Posts: '/posts'
+
+posts:
