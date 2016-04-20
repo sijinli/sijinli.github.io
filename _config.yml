@@ -4,3 +4,8 @@ permalink: /blog/:year/:month/:day/:title
 name: Sijin LI
 gems:
   - jekyll-sitemap
+
+
+pages_list:       
+  About: '/about'
+  Posts: '/posts'
