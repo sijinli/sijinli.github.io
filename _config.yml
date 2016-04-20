@@ -2,9 +2,6 @@ markdown: rdiscount
 pygments: true
 permalink: /blog/:year/:month/:day/:title
 name: Sijin LI
-gems:
-  - jekyll-sitemap
-
 
 
 paginate:  3
