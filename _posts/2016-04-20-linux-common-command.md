@@ -16,11 +16,12 @@ Another way is to use
     yum list installed | grep software-name
 	
 ## General
-<<<<<<< HEAD
+
 ### How to login with SSH without password
 
   [Check here](http://www.linuxproblem.org/art_9.html)
 =======
+
 ### How to send large files to remote computer
 	
 	rsync --append --progress  SOURCE_FILE_PATH TARGET_FILE_PATH
@@ -33,7 +34,7 @@ Another way is to use
 	find FOLDER_PATH -name "*.png" -delete
 	
 	
->>>>>>> eabe5f1d65a72c7bf44f7da49691258d54d2e156
+
 ### How to find the functions in .so file
 
 If the file is in elf format
