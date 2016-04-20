@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Posts
+title: All the posts
 ---
 
 {% for post in site.posts %}
