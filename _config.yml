@@ -6,10 +6,8 @@ gems:
   - jekyll-sitemap
 
 
+paginate:  3
+
 pages_list:       
   About: '/about'
   Posts: '/posts'
-
-posts:
-
-paginate:         1
