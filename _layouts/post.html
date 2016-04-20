@@ -4,48 +4,44 @@
     <title>{{ page.title }}</title>
     
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-  
+    
   </head>
 
   <body>
     <nav>
-<ul>
-<font size="3">
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/cv">CV</a></li>
-<li><a href="/projects">Projects</a></li>
-<li><a href="/posts">Posts</a> </li>
-<li><a href="/resources">Resources</a></li>
-</font>
-</ul>
+      <ul>
+	<font size="3">
+	  <li><a href="/">Home</a></li>
+	  <li><a href="/about">About</a></li>
+	  <li><a href="/cv">CV</a></li>
+	  <li><a href="/projects">Projects</a></li>
+	  <li><a href="/posts">Posts</a> </li>
+	  <li><a href="/resources">Resources</a></li>
+	</font>
+      </ul>
     </nav>
-<div class="container">
+    <div class="container">
 
-  {{ content }}
-  
-</div>
+      {{ content }}
+      
+    </div>
 
-<div id="related">
-  <h2>Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
+    <div id="post-list">
+      <h2>Posts</h2>
+      <ul class="posts">
+	{% for post in site.posts %}	
+	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	<p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+	{% endfor %}	
+      </ul>
+    </div>
 
-      {% for post in site.posts %}	
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
-    {% endfor %}	
-  </ul>
-</div>
-
-<footer>
-   <ul>
-   <li><a href="mailto:lisijin7 at gmail dot com">email</a></li>
-   <li><a href="https://github.com/sijinli/">github.com/sijinli</a></li>
-   </ul>
-  </footer>
+    <footer>
+      <ul>
+	<li><a href="mailto:lisijin7 at gmail dot com">email</a></li>
+	<li><a href="https://github.com/sijinli/">github.com/sijinli</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
 
