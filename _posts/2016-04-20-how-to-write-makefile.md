@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to write Make file
+title: How to write Makefile
 comments: true
 ---
 
