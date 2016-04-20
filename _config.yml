@@ -11,3 +11,5 @@ pages_list:
   Posts: '/posts'
 
 posts:
+
+paginate:         1
