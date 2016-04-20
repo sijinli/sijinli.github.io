@@ -26,16 +26,6 @@
       
     </div>
 
-    <div id="post-list">
-      <h2>Posts</h2>
-      <ul class="posts">
-	{% for post in site.posts %}	
-	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	<p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
-	{% endfor %}	
-      </ul>
-    </div>
-
     <footer>
       <ul>
 	<li><a href="mailto:lisijin7 at gmail dot com">email</a></li>
