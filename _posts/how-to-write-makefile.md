@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: How to write Make file
 comments: true
 ---
