@@ -1,5 +1,5 @@
 markdown: kramdown
-rouge: true
+Rouge: true
 permalink: /blog/:year/:month/:day/:title
 name: Sijin LI
 
