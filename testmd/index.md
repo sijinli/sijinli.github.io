@@ -4,13 +4,8 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 ---
 
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
+{% highlight python %}
+def func():
+    print("Hello world")
 {% endhighlight %}
 
