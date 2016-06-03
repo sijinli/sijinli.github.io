@@ -43,7 +43,9 @@ title: Resources
 
 
 # Deep Learning
+
 ## Discussion
+
 [Jordan at reddit][8]
 
 [Hinton at reddit][7]       
@@ -54,7 +56,7 @@ title: Resources
 
 # Reinforce Learning
 
-[Algorithms for Reinforcement Learning, by Csaba Szepesvari][13]
+[Algorithms for Reinforcement Learning, by Csaba Szepesvari][12]
 
 # Paper/article collection
 ---  
