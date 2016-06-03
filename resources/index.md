@@ -14,7 +14,7 @@ title: Resources
 [9]: http://www.reddit.com/r/MachineLearning/comments/25lnbt/ama_yann_lecun
 [10]:http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio
 [11]:http://ipg.epfl.ch/~seeger/lapmalmainweb/papers/bayesgp-tut.pdf
-
+[12]:http://www.ualberta.ca/~szepesva/RLBook/Errata.pdf
 # Books
 ---
 
@@ -43,6 +43,7 @@ title: Resources
 
 
 # Deep Learning
+## Discussion
 [Jordan at reddit][8]
 
 [Hinton at reddit][7]       
@@ -51,7 +52,9 @@ title: Resources
 
 [Yoshua Bengio at reddit][10]
 
+# Reinforce Learning
 
+[Algorithms for Reinforcement Learning, by Csaba Szepesvari][13]
 
 # Paper/article collection
 ---  
