@@ -21,7 +21,7 @@ while (research()):
 
 
 <div id="home">
-  <h3> Blog posts </h3>
+  <h3> Recent posts </h3>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
