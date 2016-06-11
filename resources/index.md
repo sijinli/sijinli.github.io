@@ -16,6 +16,7 @@ title: Resources
 [11]:http://ipg.epfl.ch/~seeger/lapmalmainweb/papers/bayesgp-tut.pdf
 [12]:http://www.ualberta.ca/~szepesva/RLBook/Errata.pdf
 [13]:http://karpathy.github.io/2016/05/31/rl/
+
 # Books
 ---
 
@@ -59,6 +60,7 @@ title: Resources
 
 [Algorithms for Reinforcement Learning, by Csaba Szepesvari][12]
 [Deep Reinforcement Learning: Pong from Pixels][13]
+
 # Paper/article collection
 ---  
   
