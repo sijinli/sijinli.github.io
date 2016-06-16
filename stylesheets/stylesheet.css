@@ -421,3 +421,14 @@ Small Device Styles
   }
 
 }
+
+
+.markdown-preview {
+ &, h4, h5, h6 {
+   font-size: 20;
+  }
+
+  h1 { font-size: 32; }
+  h2 { font-size: 28; }
+  h3 { font-size: 24; }
+}
