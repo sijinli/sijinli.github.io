@@ -15,7 +15,7 @@ Use FC layer to generate bounding box coordinates and confidence scores for each
 Therefore, the effective receptive field for each grid prediction node is the full image. 
 
 Each grid will predict B bounding box (B=2).
-During training, the object with highest IOU with the grid will be assigned to a specific predictor (say, the first predictor).
+During training, the object with highest IOU will be assigned to a specific predictor of a grid (say, the first predictor).
 
 comments: I am really curious how B affect the performance.
 
