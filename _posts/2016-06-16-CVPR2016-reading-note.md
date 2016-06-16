@@ -8,6 +8,7 @@ title: CVPR 2016 读书笔记
 {:toc}
 
 # Detection
+
 ## You Only Look Once: Unified, Real-Time Object Detection
 
 Use FC layer to generate bounding box coordinates and confidence scores for each grid box.
