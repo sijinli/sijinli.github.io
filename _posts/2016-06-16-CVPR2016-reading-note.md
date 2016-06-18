@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CVPR 2016 ∂¡ È± º«
+title: CVPR 2016 Interesting papers
 ---
 
 
