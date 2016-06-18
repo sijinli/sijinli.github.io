@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CVPR 2016 è¯»ä¹¦ç¬”è®°
+title: CVPR 2016 ¶ÁÊé±Ê¼Ç
 ---
 
 
