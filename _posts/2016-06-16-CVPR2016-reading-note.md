@@ -24,14 +24,15 @@ comments: I am really curious how B affect the performance.
 ## Personalizing Human Video Pose Estimation James
 
 It is an iterative refinement process. 
-+ Firstly, a few examples are detected with generic body part detector, which has high  precision and low recall.
-+ Do the spatial matching.
-   - Train random forests for body part detection and find the candidates from un-annotated frames
-   - Generate the matches 
-   - Siftflow to correct the matching
-+ Temporal propagation with optical flow
-+ Evaluation
-+ fine-tuning the generic pose estimation network
+
+* Firstly, a few examples are detected with generic body part detector, which has high  precision and low recall.
+* Do the spatial matching.
+   1. Train random forests for body part detection and find the candidates from un-annotated frames
+   2. Generate the matches 
+   3. Siftflow to correct the matching
+* Temporal propagation with optical flow
+* Evaluation
+* fine-tuning the generic pose estimation network
  
 
 
