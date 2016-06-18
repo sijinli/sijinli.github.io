@@ -31,8 +31,8 @@ It is an iterative refinement process.
    2. Generate the matches 
    3. Siftflow to correct the matching
 * Temporal propagation with optical flow
-* Evaluation
-* fine-tuning the generic pose estimation network
+* Evaluation (whether different annotation strategies agree with each other, train svm to detect occlusion).
+* fine-tuning the generic pose estimation network with newly generated annotation.
  
 
 
