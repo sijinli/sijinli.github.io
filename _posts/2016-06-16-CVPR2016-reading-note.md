@@ -3,7 +3,6 @@ layout: post
 title: CVPR 2016 Interesting papers
 ---
 
-
 * auto-gen TOC:
 {:toc}
 
@@ -32,8 +31,7 @@ It is an iterative refinement process.
    - Siftflow to correct the matching
 + Temporal propagation with optical flow
 + Evaluation
-+ reraining
-   
++ fine-tuning the generic pose estimation network
  
 
 
