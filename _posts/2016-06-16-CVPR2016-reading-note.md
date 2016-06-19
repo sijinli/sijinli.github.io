@@ -21,7 +21,7 @@ comments: I am really curious how B affect the performance.
 
 # Pose estimation
 
-## Personalizing Human Video Pose Estimation James
+## Personalizing Human Video Pose Estimation 
 
 It is an iterative refinement process. 
 
