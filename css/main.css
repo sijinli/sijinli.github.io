@@ -15,6 +15,7 @@ h4 { font-size: 1.9em; }
 .nav
 {
     background:#0CB9F2;
+    color:black;
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
