@@ -1,50 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    
-  </head>
+<style>
+  <html>
+    header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+</style>
+<head>
+  <title>{{ page.title }}</title>
+  
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
+</head>
 
-  <body>
-    
-<!-- <script> -->
-<!--   (function() { -->
-<!--     var cx = '017454654469187900432:5fk-c5-dw4a'; -->
-<!--     var gcse = document.createElement('script'); -->
-<!--     gcse.type = 'text/javascript'; -->
-<!--     gcse.async = true; -->
-<!--     gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; -->
-<!--     var s = document.getElementsByTagName('script')[0]; -->
-<!--     s.parentNode.insertBefore(gcse, s); -->
-<!--   })(); -->
-<!-- </script> -->
-<!-- <li> <gcse:search></gcse:search> </li> -->
-
-
-    <nav>
-      <ul>
-	<font size="3">
-	  <li>  <a href="/">Home</a></li>
-	  <li><a href="/about">About</a></li>
-	  <li><a href="/cv">CV</a></li>
-	  <li><a href="/projects">Projects</a></li>
-	  <li><a href="/posts">Posts</a> </li>
-	  <li><a href="/resources">Resources</a></li>
-	</font>
-      </ul>
-    </nav>
+<body>
+  
+  <!-- <script> -->
+  <!--   (function() { -->
+  <!--     var cx = '017454654469187900432:5fk-c5-dw4a'; -->
+  <!--     var gcse = document.createElement('script'); -->
+  <!--     gcse.type = 'text/javascript'; -->
+  <!--     gcse.async = true; -->
+  <!--     gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; -->
+  <!--     var s = document.getElementsByTagName('script')[0]; -->
+  <!--     s.parentNode.insertBefore(gcse, s); -->
+  <!--   })(); -->
+  <!-- </script> -->
+  <!-- <li> <gcse:search></gcse:search> </li> -->
 
 
-      {{ content }}
+  <nav>
+    <ul>
+      <font size="3">
+	<li>  <a href="/">Home</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/cv">CV</a></li>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/posts">Posts</a> </li>
+	<li><a href="/resources">Resources</a></li>
+      </font>
+    </ul>
+  </nav>
 
 
-    <footer>
-      <ul>
-	<li><a href="mailto:lisijin7 at gmail dot com">email</a></li>
-	<li><a href="https://github.com/sijinli/">github.com/sijinli</a></li>
-      </ul>
-    </footer>
-  </body>
+  {{ content }}
+
+
+  <footer>
+    <ul>
+      <li><a href="mailto:lisijin7 at gmail dot com">email</a></li>
+      <li><a href="https://github.com/sijinli/">github.com/sijinli</a></li>
+    </ul>
+  </footer>
+</body>
 </html>
