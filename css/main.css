@@ -11,6 +11,15 @@ footer {
     padding:5px;
 }
 
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
 body { margin: 60px auto; width: 70%; }
 
 
