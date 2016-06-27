@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CVPR 2016 Interesting papers
-comments: true
+comments: True
 ---
 
 * auto-gen TOC:
