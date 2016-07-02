@@ -8,9 +8,10 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 <body>
     <script>
       function togglevideo(id) {
+      <!-- window.alert(id); -->
       if (typeof togglevideo.counter == 'undefined') {
       togglevideo.counter = [0,0];
-      togglevideo.html = ["<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>", "<iframe width="560" height="315" src="https://www.youtube.com/embed/9uHGP7STxHg?list=RD9uHGP7STxHg" frameborder="0" allowfullscreen></iframe>"]
+      togglevideo.html = new Array("<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>","<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9uHGP7STxHg\" frameborder=\"0\" allowfullscreen></iframe>")
       }
       var idx = 0;
       if (id == 'v1') {
@@ -22,7 +23,7 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       if (togglevideo.counter[idx] == 0) {
       v.innerHTML = togglevideo.html[idx]
       } else {
-      v.innerHTML = "" 
+      v.innerHTML = ""
       }
       togglevideo.counter[idx] = 1 - togglevideo.counter[idx]
       }
