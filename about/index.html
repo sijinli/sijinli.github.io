@@ -11,11 +11,15 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       if (typeof togglevideo.counter == 'undefined') {
       togglevideo.counter = 0;
       }
-      var v1 = document.getElementById(id);
+      var v = document.getElementById(id);
       if (togglevideo.counter == 0) {
-      v1.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
+      if (v == 'v1') {
+      v.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
       } else {
-      v1.innerHTML = ""
+      v.innerHTML = "<iframe width="560" height="315" src="https://www.youtube.com/embed/9uHGP7STxHg?list=RD9uHGP7STxHg" frameborder="0" allowfullscreen></iframe>"
+      }
+      } else {
+      v.innerHTML = ""
       }
       togglevideo.counter = 1 - togglevideo.counter;
       }
@@ -25,9 +29,13 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
     <a href="https://itsuper7.wordpress.com">Blog in wordpress</a> |
     <a href="http://itsuper7.ruhoh.com/">Blog built with ruhoh </a> 
   </nav>
-<h>Likes</h>
+  <h>Likes</h>
+
   <nav>
     <a href="javascript:togglevideo('v1')" target="_self"> Chinese Paladin 6 </a>
+  </nav>
+  <nav>
+    <a href="javascript:togglevideo('v2')" target="_self"> 天行九歌 </a>
   </nav>
   <div class="blockcontent" id="showing-text" style="display:none;color:#00FF00">
     <pre>

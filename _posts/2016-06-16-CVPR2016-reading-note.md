@@ -19,6 +19,16 @@ During training, the object with highest IOU will be assigned to a specific pred
 
 comments: I am really curious how B affect the performance.
 
+## Recurrent Attention Models for Depth-Based Person Identificatio
+
+Treat a classification task for video sequence as reinforce-learning is interesting.
+
+The idea of using attension based methods to put attension at different region of the point cloud increase the number of training samples and decresse the dimension of the CNN input.
+
+The video sequence is judged as the whole.
+
+The assumption here is that it is possible (necessary) to identify the person from the point clouds by looking at local regions each time.
+
 
 # Pose estimation
 
