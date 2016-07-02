@@ -8,26 +8,23 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 <body>
     <script>
       function togglevideo(id) {
-      if (typeof togglevideo.counter1 == 'undefined') {
-      togglevideo.counter1 = 0;
+      if (typeof togglevideo.counter == 'undefined') {
+      togglevideo.counter = [0,0];
+      togglevideo.html = ["<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>", "<iframe width="560" height="315" src="https://www.youtube.com/embed/9uHGP7STxHg?list=RD9uHGP7STxHg" frameborder="0" allowfullscreen></iframe>"]
       }
-      if (typeof togglevideo.counter2 == 'undefined') {
-      togglevideo.counter2 = 0;
+      var idx = 0;
+      if (id == 'v1') {
+      idx = 0;
+      } else {
+      idx = 1;
       }
       var v = document.getElementById(id);
-      if (togglevideo.counter == 0) {
-      if (id == 'v1') {
-      v.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>"
-      togglevideo.counter1 = 1 - togglevideo.counter1;
+      if (togglevideo.counter[idx] == 0) {
+      v.innerHTML = togglevideo.html[idx]
       } else {
-      v.innerHTML = "<iframe width="560" height="315" src="https://www.youtube.com/embed/9uHGP7STxHg?list=RD9uHGP7STxHg" frameborder="0" allowfullscreen></iframe>"
-      togglevideo.counter2 = 1 - togglevideo.counter2;
+      v.innerHTML = "" 
       }
-      } else {
-      v.innerHTML = ""
-      }
-
-
+      togglevideo.counter[idx] = 1 - togglevideo.counter[idx]
       }
     </script>
 <h>Previous blogs</h>
