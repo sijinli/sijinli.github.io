@@ -17,6 +17,10 @@ title: Resources
 [12]:http://www.ualberta.ca/~szepesva/RLBook/Errata.pdf
 [13]:http://karpathy.github.io/2016/05/31/rl/
 
+* auto-gen TOC:
+{:toc}
+
+
 # Books
 ---
 
