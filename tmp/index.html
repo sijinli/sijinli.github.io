@@ -5,69 +5,69 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 
 <html>
   <head>
+    <style>
+      /* The Modal (background) */
+      .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
 
-<script>
-  (function() {
-    var cx = '017454654469187900432:5fk-c5-dw4a';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
+      /* Modal Content */
+      .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      }
 
-<div >
-  <a href="#poptest">Pop window test</a>
-</div>
+      /* The Close Button */
+      .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      }
 
-
-
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">×</span>
-    <p>The text inside modal</p>
-  </div>
-</div>
-<button id="myBtn">Open Modal</button>
-
-<script>
-
-  var modal = document.getElementById("myModal");
-
-
-  var btn = document.getElementById("myBtn");
-
-
-  var span = document.getElementsByClassName("close")[0];
-
-  
-  btn.onclick = function() {
-  modal.style.display = "block";
-  }
-  // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-    modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-    if (event.target == modal) {
-    modal.style.display = "none";
-    }
-    }
-</script>
-
-<gcse:search></gcse:search>
-    
+      .close:hover,
+      .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+      }
+    </style>
     <meta charset="UTF-8">
     <title>Hello Worlds</title>
   </head>
-
   <body onLoad=init()>
+    <gcse:search></gcse:search>
+
+
+
+    <!-- <div > -->
+    <!--   <a href="#poptest">Pop window test</a> -->
+    <!-- </div> -->
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+	<span class="close">×</span>
+	<p>The text inside modal</p>
+      </div>
+    </div>
+
+    <button id="myBtn">Open Modal</button>
+
+    
     Hello worlds
     Welcome to Html5 Learning
     <section>
@@ -92,6 +92,30 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
 	    style="border:1px solid #000000;">
     </canvas>
     <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+      modal.style.display = "block";
+      }
+      span.onclick = function() {
+      modal.style.display = "none";
+      }
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal) {
+      modal.style.display = "none";
+      } 
+      }
+      (function() {
+      var cx = '017454654469187900432:5fk-c5-dw4a';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+      })();
       function init() {
       var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
@@ -176,30 +200,30 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
     </script>
     <button id="b1" onclick="callbutton(this.id)"  type="button"> I am a button </button>
 
-  <canvas id="textcolortest" width="578" height="500"></canvas>
-  <script>
-    var canvas = document.getElementById('textcolortest');
-    var context = canvas.getContext('2d');
-    context.font = '40pt Calibri';
-    context.fillStyle = 'blue';
-    context.fillText('Hello World!', 150,100);
-    context.fillStyle = 'red';
-    context.fillText('Yes', 150,200);
-  </script>
+    <canvas id="textcolortest" width="578" height="500"></canvas>
+    <script>
+      var canvas = document.getElementById('textcolortest');
+      var context = canvas.getContext('2d');
+      context.font = '40pt Calibri';
+      context.fillStyle = 'blue';
+      context.fillText('Hello World!', 150,100);
+      context.fillStyle = 'red';
+      context.fillText('Yes', 150,200);
+    </script>
 
   </body>
 
 
   
-<div id="poptest" class="overlay">
+  <div id="poptest" class="overlay">
     <div class="popup">
-        <h2>poptest</h2>
-        <a class="close" href="#">×</a>
-          <pre>
-	    This is for testing pop
-          </pre>
+      <h2>poptest</h2>
+      <a class="close" href="#">×</a>
+      <pre>
+	This is for testing pop
+      </pre>
     </div>
-</div>
+  </div>
 
   <nav>
     [<a href="javascript:toggletext('showing-text')" target="_self"> Showing Text</a>]
@@ -227,7 +251,7 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
     <a href="http://itsuper7.wordpress.com">itsuper</a>
   </nav>
   <div class="blockcontent" id="showing-video" style="display:none;color:#00FF00">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4uFbVqYTxwA?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4uFbVqYTxwA?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK" frameborder="0" allowfullscreen></iframe>
   </div>
 
 
