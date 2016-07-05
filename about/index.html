@@ -10,14 +10,16 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
       function togglevideo(id) {
       <!-- window.alert(id); -->
       if (typeof togglevideo.counter == 'undefined') {
-      togglevideo.counter = [0,0];
-      togglevideo.html = ["<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9paIZp-VwNk\" frameborder=\"0\" allowfullscreen></iframe>"];
+      togglevideo.counter = [0,0, 0];
+      togglevideo.html = ["<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MIpk_Tj9-D0?list=PLkS-e1pc9DDLMrdbUQNj0fTwvPEndfrTK\" frameborder=\"0\" allowfullscreen></iframe>", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9paIZp-VwNk\" frameborder=\"0\" allowfullscreen></iframe>", "<iframe width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/1pWA4s4ybQg\" frameborder=\"0\" allowfullscreen></iframe>"];
       }
       var idx = 0;
       if (id == 'v1') {
       idx = 0;
-      } else {
+      } else if (id == 'v2') {
       idx = 1;
+      } else {
+      idx = 2;
       }
       var v = document.getElementById(id);
       if (togglevideo.counter[idx] == 0) {
@@ -40,6 +42,9 @@ title: Sijin LI (Mathematics, Machine Learning and Programming )
   </nav>
   <nav>
     <a href="javascript:togglevideo('v2')" target="_self"> 梦太晚 </a>
+  </nav>
+  <nav>
+    <a href="javascript:togglevideo('v3')" target="_self" 蝶恋花--- 无可奈何花落去，似曾相识燕归来</a>
   </nav>
   <!-- <div class="blockcontent" id="showing-text" style="display:none;color:#00FF00"> -->
     <pre>
