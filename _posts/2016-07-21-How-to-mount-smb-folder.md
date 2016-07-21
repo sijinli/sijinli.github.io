@@ -6,4 +6,4 @@ comments: true
 
 # How to mount the smb folder 
 
-    sudo mount -t cifs -o username=usr,password=pwd SMB_IP LOCAL_FOLDER
+    sudo mount -t cifs -o username=smbusr,password=smbpwd SMB_IP LOCAL_FOLDER
