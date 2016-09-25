@@ -15,4 +15,9 @@ LD_LIBRARY_PATH is used by your program to search for directories containing the
 </cite>
 [see here](http://stackoverflow.com/questions/4250624/ld-library-path-vs-library-path)
 
+### How to use etags to process all the files under a folder
+
+    find . -name "*.cpp" -print -or -name "*.hpp" -print | xargs etags 
+    
+
 
