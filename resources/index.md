@@ -16,6 +16,7 @@ title: Resources
 [11]:http://ipg.epfl.ch/~seeger/lapmalmainweb/papers/bayesgp-tut.pdf
 [12]:http://www.ualberta.ca/~szepesva/RLBook/Errata.pdf
 [13]:http://karpathy.github.io/2016/05/31/rl/
+[14]:http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html
 
 * auto-gen TOC:
 {:toc}
@@ -23,6 +24,10 @@ title: Resources
 
 # Books
 ---
+
+### Reinforcement Learning
+
+[Reinforcement Learning: An introduction][14]
 
 ### Optimization
 
