@@ -1,6 +1,8 @@
 ---
 layout: default
 slug: music
-name: Music
+name: music
 whatever: m
 ---
+
+This is for category music
