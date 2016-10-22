@@ -5,7 +5,9 @@
 {% assign category = site.my_categories | where: "slug", post.category %}
 {% assign category = category[0] %}
 {% if category %}
-    {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
+{% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
+{% else %}
+    {% assign category_content = 'Default category' %}
 {% endif %}
 
 {% assign post = page %}
