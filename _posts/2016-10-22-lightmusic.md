@@ -3,7 +3,7 @@ layout: post
 title: 好听的音乐---锦鲤抄
 comments: true
 category: music
-tags: music
+tags: [music]
 ---
 
 <div>
