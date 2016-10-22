@@ -8,9 +8,9 @@ name: Sijin LI
 paginate:  3
 
 collections:
-	categories: 
-	output: true
-	permalink: /blog/category/:name/
+  categories: 
+    output: true
+    permalink: /blog/category/:name/
 
 pages_list:       
   About: '/about'
