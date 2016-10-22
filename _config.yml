@@ -8,7 +8,7 @@ name: Sijin LI
 paginate:  3
 
 collections:
-  categories: 
+  my_categories:
     output: true
     permalink: /blog/category/:name/
 
