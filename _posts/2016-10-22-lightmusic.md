@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 锦鲤抄
+title: 好听的音乐---锦鲤抄
 comments: true
 category: music
 ---
