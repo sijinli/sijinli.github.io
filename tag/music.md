@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: blog_by_tag
 slug: music
 name: music
 ---
 
-This is for category music
+
