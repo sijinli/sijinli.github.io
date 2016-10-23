@@ -10,6 +10,8 @@ paginate:  3
 collections:
   my_categories:
     output: true
+  tag:
+    output: true 
 
 pages_list:       
   About: '/about'
