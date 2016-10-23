@@ -3,7 +3,7 @@ layout: post
 title: Unix as IDE
 comments: True
 category: linux
-tags: [linux]
+tags: [music]
 ---
 
 
