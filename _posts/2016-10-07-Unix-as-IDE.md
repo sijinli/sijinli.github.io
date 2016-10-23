@@ -2,6 +2,7 @@
 layout: post
 title: Unix as IDE
 comments: True
+tags: [linux]
 ---
 
 

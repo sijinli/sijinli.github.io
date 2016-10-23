@@ -2,6 +2,7 @@
 layout: post
 title: CVPR 2016 Interesting papers
 comments: True
+tags: [machine_learning]
 ---
 
 * auto-gen TOC:

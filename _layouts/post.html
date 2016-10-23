@@ -7,7 +7,7 @@
 {% if category %}
 {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
 {% else %}
-    {% assign category_content = 'Default category' %}
+    {% assign category_content = '' %}
 {% endif %}
 
 {% assign post = page %}
@@ -25,7 +25,7 @@
         {% endif %}
     {% endfor %}
 {% else %}
-    {% assign tags_content = 'None tag' %}
+    {% assign tags_content = '' %}
 {% endif %}
 
 

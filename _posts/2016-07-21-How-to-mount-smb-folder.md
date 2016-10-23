@@ -2,6 +2,7 @@
 layout: post
 title: How to mount the smb folder
 comments: true
+tags: [linux]
 ---
 
 # How to mount the smb folder 

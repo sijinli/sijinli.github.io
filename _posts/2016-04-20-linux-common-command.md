@@ -1,6 +1,8 @@
 ---
 layout: post
 title: CentOS
+comments: true
+tags: linux
 ---
 
 ## CentOS
