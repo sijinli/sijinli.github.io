@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unix as IDE
-comments: True
+comments: true
 category: linux
 tags: [linux]
 ---
