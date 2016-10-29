@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to create a c extenstion for python
+title: Sebastian Thrun Zhihu alive
 comments: true
 tags: [c,python]
 ---
