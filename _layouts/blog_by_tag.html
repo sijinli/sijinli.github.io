@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<h1>Articles by tag: {{ page.tag }}</h1>
+<h1>Articles by tag: {{ page.name }}</h1>
 <div>
     {% if site.tag[page.tag] %}
         {% for post in site.tag[page.tag] %}
