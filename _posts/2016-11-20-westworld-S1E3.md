@@ -7,10 +7,11 @@ tags: [note, movie]
 
 
 # 4 levels
-## Memory
-## Improvisation
-## Self-interest
-## Self consciousness
+
+1. Memory
+2. Improvisation
+3. Self-interest
+4. Self consciousness
 
 
 # Bicamera mind
