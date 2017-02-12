@@ -17,6 +17,9 @@ title: Resources
 [12]:http://www.ualberta.ca/~szepesva/RLBook/Errata.pdf
 [13]:http://karpathy.github.io/2016/05/31/rl/
 [14]:http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html
+[15]:http://people.eecs.berkeley.edu/~pabbeel/nips-tutorial-policy-optimization-Schulman-Abbeel.pdf
+[16]:http://rll.berkeley.edu/deeprlcourse/docs/nuts-and-bolts.pdf
+[17]:http://rll.berkeley.edu/deeprlcourse/#syllabus
 
 * auto-gen TOC:
 {:toc}
@@ -69,6 +72,11 @@ title: Resources
 
 [Algorithms for Reinforcement Learning, by Csaba Szepesvari][12]
 [Deep Reinforcement Learning: Pong from Pixels][13]
+
+[tutorial on policy gradient metho by Pieter Abbeel and John Schulmand][15]
+[nuts and bots of Deep RL research by John][16]
+
+[MIT Deep learning course][17]
 
 # Paper/article collection
 ---  
