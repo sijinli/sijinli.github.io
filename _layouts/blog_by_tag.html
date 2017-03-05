@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: default
 ---
 
 <h1>Articles by tag: {{ page.name }}</h1>
 <div>
-    {% if site.tag[page.name] %}
-        {% for post in site.tag[page.name] %}
+    {% if site.my_tags[page.name] %}
+        {% for post in site.my_tags[page.name] %}
             <a href="{{ post.url }}/">{{ post.title }}</a>
         {% endfor %}
     {% else %}
