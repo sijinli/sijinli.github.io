@@ -2,7 +2,7 @@
 layout: post
 title: Sebastian Thrun Zhihu alive
 comments: true
-tags: [machine learning]
+category: deeplearning
 ---
 
 
