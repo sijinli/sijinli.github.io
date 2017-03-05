@@ -3,7 +3,8 @@ layout: post
 title: Some thoughts about unsupervised learning
 comments: true
 tags: [note, movie,dl]
-category: [note]
+category: deeplearning
+
 ---
 
 # Does supervised learning come first or unsupervised learning?
