@@ -11,8 +11,9 @@ collections:
   my_categories:
     output: true
     permalink: /blog/category/:name/
-  tag:
-    output: true 
+  tags:
+    output: true
+    permalink: /blog/tag/:name/
 
 pages_list:       
   About: '/about'
