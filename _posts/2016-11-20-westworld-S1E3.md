@@ -3,6 +3,7 @@ layout: post
 title: Consciousness
 comments: true
 tags: [note, movie]
+category: note
 ---
 
 
