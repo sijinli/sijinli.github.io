@@ -10,6 +10,7 @@ paginate:  3
 collections:
   my_categories:
     output: true
+    permalink: /blog/category/:name/
   tag:
     output: true 
 
