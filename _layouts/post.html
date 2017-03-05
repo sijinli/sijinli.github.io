@@ -11,7 +11,7 @@ layout: default
 {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
 {% endif %}
 
-{{content}}
+
 {% if post.tags.size > 0 %}
 {% capture tags_content %} with <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
 {% for post_tag in post.tags %}
@@ -23,6 +23,8 @@ layout: default
 {% endif %}
 {% endfor %}
 {% endif %}
+
+{{content}}
 
  <p class="m-t-3 text-muted font-italic">
     <small>Posted {% if category_content %} in </small>{{ category_content }}<small>{% endif %}{{ tags_content }}</small>
