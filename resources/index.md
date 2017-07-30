@@ -20,7 +20,7 @@ title: Resources
 [15]:http://people.eecs.berkeley.edu/~pabbeel/nips-tutorial-policy-optimization-Schulman-Abbeel.pdf
 [16]:http://rll.berkeley.edu/deeprlcourse/docs/nuts-and-bolts.pdf
 [17]:http://rll.berkeley.edu/deeprlcourse/#syllabus
-
+[18]:http://www.di.ens.fr/~fbach/2017_SIOPT_NonX.pdf
 * auto-gen TOC:
 {:toc}
 
@@ -35,6 +35,8 @@ title: Resources
 ### Optimization
 
 [Convex Optimization by Sebastien Bubeck][1]
+[Stochastic Variance-Reduced Optimization for Machine Learning][18]
+
 
 ### Statistics
 [Statistical Models Theory and Practice][5]
