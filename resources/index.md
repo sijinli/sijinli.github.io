@@ -27,12 +27,14 @@ title: Resources
 
 # Books 
 ---
-<html>
-<nav>
-	<li><a href="/resources">Resources</a></li>
-	<li><a href="/resources/book">Resources</a></li>
-</nav>
-</html>
+
+<!-- <html> -->
+<!-- <nav> -->
+<!-- 	<li><a href="/resources">Resources</a></li> -->
+<!-- 	<li><a href="/resources/book">Resources</a></li> -->
+<!-- </nav> -->
+<!-- </html> -->
+
 ### Reinforcement Learning
 
 [Reinforcement Learning: An introduction][14]
