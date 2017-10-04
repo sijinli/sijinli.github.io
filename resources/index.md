@@ -42,6 +42,7 @@ title: Resources
 ### Optimization
 
 [Convex Optimization by Sebastien Bubeck][1]
+
 [Stochastic Variance-Reduced Optimization for Machine Learning][18]
 
 
@@ -80,9 +81,11 @@ title: Resources
 # Reinforce Learning
 
 [Algorithms for Reinforcement Learning, by Csaba Szepesvari][12]
+
 [Deep Reinforcement Learning: Pong from Pixels][13]
 
 [tutorial on policy gradient metho by Pieter Abbeel and John Schulmand][15]
+
 [nuts and bots of Deep RL research by John][16]
 
 [MIT Deep learning course][17]
