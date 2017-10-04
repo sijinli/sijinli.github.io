@@ -87,3 +87,10 @@ title: Resources
 
 + [Gaussian Process for machine learning][11]
 
+# Code/Tools
+
+[Embed all the thing Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/Starspace)
+
+
+
+
