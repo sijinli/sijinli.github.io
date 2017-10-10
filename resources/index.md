@@ -101,6 +101,6 @@ title: Resources
 
 [Embed all the thing Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/Starspace)
 
-
+[losswise:Systematic workflows for serious data scientists](https://losswise.com)
 
 
