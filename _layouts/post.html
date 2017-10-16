@@ -17,11 +17,13 @@ layout: default
 Here are some test 
   {% capture tags_content %}  <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
   {% for post_tag in post.tags %}
-lalalalal
   {% assign tag = site.my_tags | where: "slug", post_tag %}
   {% if tag %}
       {% assign tag = tag[0] %}
-      {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+      {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.name }}</a>
+         {% if forloop.last == false %}, 
+         {% endif %}
+      {% endcapture %}
       {% assign tags_content = tags_content_temp %}
   {% endif %}
   {% endfor %}
