@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog_by_tag
 slug: note
 name: note
 whatever: note

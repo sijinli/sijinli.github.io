@@ -20,6 +20,7 @@ Here are some test
   {% assign tag = site.my_tags | where: "slug", post_tag %}
   {% if tag %}
       {% assign tag = tag[0] %}
+      <a href="{{ tag.url }}">{{ tag.name }}</a>
       {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.name }}</a>
          {% if forloop.last == false %}, 
          {% endif %}
