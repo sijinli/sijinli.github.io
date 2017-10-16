@@ -17,6 +17,7 @@ layout: default
 Here are some test 
   {% capture tags_content %}  <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
   {% for post_tag in post.tags %}
+lalalalal
   {% assign tag = site.my_tags | where: "slug", post_tag %}
   {% if tag %}
       {% assign tag = tag[0] %}
