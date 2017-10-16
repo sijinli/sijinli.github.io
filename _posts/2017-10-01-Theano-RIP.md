@@ -2,6 +2,7 @@
 layout: post
 title: Theano R.I.P
 comments: true
+category: note
 tags: [note]
 category: 
 ---
