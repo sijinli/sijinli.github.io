@@ -3,6 +3,7 @@ layout: post
 title: Theano R.I.P
 comments: true
 tags: [note, python]
+slug: note
 category: note
 ---
 
