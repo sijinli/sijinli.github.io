@@ -2,5 +2,5 @@
 layout: blog_by_tag
 slug: note
 name: note
-whatever: note
+tags: note
 ---
