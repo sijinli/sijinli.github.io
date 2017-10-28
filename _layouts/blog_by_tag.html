@@ -5,18 +5,15 @@ layout: default
 <h3>Articles [{{ page.name }}]:</h3>
 <div>
 
-<!-- <h2> {{page.slug}} </h2> -->
-  <!-- {% if site.tags[page.slug] %} -->
-<h> {{page.slug}} </h>
-<!-- {% for post in site.my_tags[page.slug] %} -->
+
+
+
+  <h4> all tags:
   {% for post in site.my_tags %}
-  <!-- <a href="{{ page.slug }}">{{ page.slug }}</a> -->
-  <h> hhhh</h>
-  <!-- <a href="{{ post.url }}/">{{ post.title }}</a> -->
-  <!-- {{ post.excerpt }} -->
+
+  {% assign tag_name = post.name %}
+<a href="{{ post.url }}">{{ tag_name }}</a>
   {% endfor %}
-    <!-- {% else %} -->
-    <!--     <p>There are no posts for {{ page.tag }} </p> -->
-    <!-- {% endif %} -->
+</h4>
 </div>
  

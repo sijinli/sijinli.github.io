@@ -21,6 +21,7 @@ title: Resources
 [16]:http://rll.berkeley.edu/deeprlcourse/docs/nuts-and-bolts.pdf
 [17]:http://rll.berkeley.edu/deeprlcourse/#syllabus
 [18]:http://www.di.ens.fr/~fbach/2017_SIOPT_NonX.pdf
+[19]:http://phontron.com/class/nn4nlp2017/schedule.html
 * auto-gen TOC:
 {:toc}
 
@@ -48,6 +49,10 @@ title: Resources
 
 ### Statistics
 [Statistical Models Theory and Practice][5]
+
+# Course
+[Standford NLP course][19]
+
 
 # Good Tutorial
 ---
