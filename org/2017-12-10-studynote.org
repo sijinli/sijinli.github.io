@@ -1,0 +1,21 @@
+# ---
+# layout: post
+# title: Theoretical Impediments to Machine Learning (Note)
+# comments: true
+# tags: [note]
+# slug: note
+# category: note
+# ---
+
+
+论文中介绍了因果推理的三个层次，
++ 第一个层次为关联（association)。如果用问题描述当发生X的时候，Y的条件概率是否会变化。
++ 第二个层次为干预(Intervention)，即如果采取行动X,那么Y是否会有变化。
++ 第三个层次为预演，即对于未来发生的事情的推断，以及对于因果原因的确切分析。
+
+并且提出了优化 ETT = E(Y_{x'} |X = x)  而不是优化 ATE=E(Y|do(x'))。
+ETT 与 ATE的主要区别在于，是否使用X=x这条信息。
+ETT更像是，当前已经观察到的action是x, 那么如果不这样做，将会怎样。
+因为action是x,那么其中已经包含了信息是当前的情况，有概率会采取action x.
+作者使用 Multi-Armed Bandit 的实验证明，使用ETT可以取得比 ATE更好的结果。
+
