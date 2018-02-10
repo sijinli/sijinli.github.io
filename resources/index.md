@@ -22,23 +22,26 @@ title: Resources
 [17]:http://rll.berkeley.edu/deeprlcourse/#syllabus
 [18]:http://www.di.ens.fr/~fbach/2017_SIOPT_NonX.pdf
 [19]:http://phontron.com/class/nn4nlp2017/schedule.html
+[20]:https://katefvision.github.io/#readings
 * auto-gen TOC:
 {:toc}
 
 
-# Books 
----
+<!-- # Books  -->
+<!-- --- -->
 
 <!-- <html> -->
-<!-- <nav> -->
-<!-- 	<li><a href="/resources">Resources</a></li> -->
-<!-- 	<li><a href="/resources/book">Resources</a></li> -->
-<!-- </nav> -->
+<nav>
+	<li><a href="/resources/book">Books</a></li>
+</nav>
 <!-- </html> -->
 
 ### Reinforcement Learning
 
 [Reinforcement Learning: An introduction][14]
+
+
+[Deep Reinforcement Learning and Control: Spring 2017, CMU 10703][20]
 
 ### Optimization
 
@@ -103,9 +106,5 @@ title: Resources
 + [Gaussian Process for machine learning][11]
 
 # Code/Tools
-
-[Embed all the thing Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/Starspace)
-
-[losswise:Systematic workflows for serious data scientists](https://losswise.com)
 
 
