@@ -1,0 +1,66 @@
+<p><link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/idea.min.css">
+<script type="text/javascript" src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Satisfy|Joti+One' rel='stylesheet' type='text/css'>
+<script src="jquery.js"></script>
+<script src='garden.js'></script>
+<script src='functions.js'></script>
+<link href='default.css' type='text/css' rel='stylesheet' media='all'>
+<style type="text/css">
+    @font-face {
+        font-family: digit;
+        src: url(digital-7-mono.ttf) format(truetype);
+    }
+</style>
+
+<div id="content">
+    <audio id="sound">
+        <source src="type.ogg" type="audio/ogg" />
+        <source src="type.mp3" type="audio/mpeg" />
+        Your browser does not support HTML5 audio.
+    </audio>
+    <div id="code"></p>
+
+<pre><code>
+
+from love import like
+import human
+i = human.create(&quot;Sijin&quot;, &quot;boy&quot;)
+
+while (i.is_single()) {
+    i.cook()
+    i.work()
+    i.travel()
+    u = human.search(&quot;girl&quot;, i.get_env())
+    if (like(i, u) and like(u,i)) {
+        i.set_value(&quot;single&quot;, False)
+        while (like(u, i)) {
+            i.cook(taste=u.taste())
+            i.work()
+            i.travel(with=[u,])
+            i.study()
+            ## ...
+
+        }
+        assert(False)
+    } 
+}
+</code></pre>
+
+<p></div>
+    <div id="animation">
+        <canvas id="garden"></canvas><br>
+        <div id="words">
+            <div id="messages">
+                I have been waiting for you for 
+                <div id="elapseClock"></div>
+            </div>
+            <div id="hope">
+                Looking forward to seeing you.<br/>
+                <div class="signature">-  Sijin </div>
+            </div>
+        </div>
+    </div><br>
+</div>
+<div id="copyright">
+    Inspired by <a href="http://daisygao.me" title="daisygao love project"> DaisyGao Love Project</a>.<br />
+</div></p>
