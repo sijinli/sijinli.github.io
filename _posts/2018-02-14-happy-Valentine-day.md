@@ -7,7 +7,7 @@ slug: note
 category: note
 ---
 
-Inspired by <a href="http://daisygao.me"> daisy gao</a>, I have created <a href="/pages/love">a love page</a>
+Inspired by <a href="http://daisygao.me">daisy gao</a>, I have created <a href="/pages/love">a love page</a>
 
 
 
