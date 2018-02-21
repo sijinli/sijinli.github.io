@@ -2,8 +2,9 @@
 layout: post
 title: 唐诗地图
 comments: true
-tags: [note]
+my_tags: [note]
 category: 
+tags: [note]
 ---
 
 

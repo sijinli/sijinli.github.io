@@ -2,6 +2,7 @@
 layout: post
 title: How to write Makefile
 comments: true
+my_tags: [linux]
 tags: [linux]
 ---
 

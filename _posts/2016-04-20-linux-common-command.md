@@ -2,7 +2,8 @@
 layout: post
 title: CentOS
 comments: true
-tags: linux
+my_tags: [linux]
+tags: [linux]
 ---
 
 ## CentOS

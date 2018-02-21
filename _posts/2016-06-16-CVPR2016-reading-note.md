@@ -2,6 +2,7 @@
 layout: post
 title: CVPR 2016 Interesting papers
 comments: True
+my_tags: [machine_learning]
 tags: [machine_learning]
 ---
 

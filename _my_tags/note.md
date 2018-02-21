@@ -1,6 +1,9 @@
 ---
-layout: blog_by_tag
+layout: default
 slug: note
 name: note
-tags: note
+
 ---
+
+
+In note

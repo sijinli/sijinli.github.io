@@ -1,7 +1,7 @@
 ---
 layout: default
-slug: linux
-name: Linux
+slug: movie
+name: movie
 ---
 
 

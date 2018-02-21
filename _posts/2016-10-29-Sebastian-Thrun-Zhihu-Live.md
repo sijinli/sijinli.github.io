@@ -3,6 +3,8 @@ layout: post
 title: Sebastian Thrun Zhihu alive
 comments: true
 category: deeplearning
+my_tags: [note]
+tags: [note]
 ---
 
 

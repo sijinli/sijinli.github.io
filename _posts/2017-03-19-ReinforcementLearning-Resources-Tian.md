@@ -2,9 +2,10 @@
 layout: post
 title: Reinforcement learning tutorial and note---田渊栋
 comments: true
-tags: [note]
+my_tags: [note]
 slug: note
 category: deeplearning
+tags: deeplearning
 ---
 
 

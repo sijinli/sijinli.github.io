@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to install tensorflow on centos
+my_tags: [machine-learning]
 tags: [machine-learning]
 ---
 

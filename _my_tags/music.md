@@ -1,8 +1,7 @@
 ---
-layout: blog_by_tag
+layout: default
 slug: music
 name: music
-tag: music
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux notes
+my_tags: [linux]
 tags: [linux]
 comments: true
 ---

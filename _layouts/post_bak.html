@@ -11,7 +11,7 @@ layout: default
 {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
 {% endif %}
 
-    <p class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/blog_by_tag.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
+
 
 {% if post.my_tags.size > 0 %}
   {% capture tags_content %}  <span class="icon-price-tag{% if post.my_tags.size > 1 %}s{% endif %}"></span> {% endcapture %}
@@ -30,6 +30,6 @@ layout: default
 
 {{content}}
 
- <!-- <p class="m-t-3 text-muted font-italic"> -->
- <!--    <small>Category: {% if category_content %}  </small>{{ category_content }}<small>{% endif %}, tags: {{ tags_content }}</small> -->
- <!--  </p> -->
+ <p class="m-t-3 text-muted font-italic">
+    <small>Category: {% if category_content %}  </small>{{ category_content }}<small>{% endif %}, tags: {{ tags_content }}</small>
+  </p>

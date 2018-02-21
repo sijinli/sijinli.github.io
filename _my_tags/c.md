@@ -1,5 +1,5 @@
 ---
-layout: blog_by_tag
+layout: default
 slug: c
 name: C
 ---

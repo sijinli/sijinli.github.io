@@ -2,8 +2,9 @@
 layout: post
 title: how to create a c extenstion for python
 comments: true
-tags: c
 category: note
+my_tags: [c]
+tags: [c]
 ---
 
 ### Script

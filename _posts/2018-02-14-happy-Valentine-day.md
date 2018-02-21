@@ -2,7 +2,8 @@
 layout: post
 title: Happy Valentine Day
 comments: true
-tags: [note]
+tags: [note,writing]
+my_tags: [note]
 slug: note
 category: note
 ---
