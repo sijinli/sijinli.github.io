@@ -4,7 +4,7 @@ title: Consciousness
 comments: true
 my_tags: [note,movie]
 category: note
-tags: [note, movie]
+tags: [note,movie]
 ---
 
 
