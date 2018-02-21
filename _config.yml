@@ -4,7 +4,7 @@ highlighter: rouge
 permalink: /blog/:year/:month/:day/:title
 name: Sijin LI
 
-url: 'https://itsuper7.me'
+
 google_analytics: UA-42209870-1
 disqus_shortname: sijin
 
