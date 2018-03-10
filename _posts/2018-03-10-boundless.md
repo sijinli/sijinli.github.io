@@ -24,7 +24,13 @@ div{margin:0;padding:0}
 <div id="container">
 <div class="box1">
 
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=16193378&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
+<!-- <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=16193378&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"> -->
+
+<!-- <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=16193378&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed> -->
+
+<embed id="STK_137722048114034" width="544" height="415" wmode="transparent" quality="high" allowfullscreen="true" flashvars="playMovie=true&auto=1" pluginspage="http://get.adobe.com/cn/flashplayer/" allowscriptaccess="never" src="http://static.hdslb.com/miniloader.swf?aid=16193378&page=1" type="application/x-shockwave-flash" style="visibility: visible;"> 
+
+<!-- <iframe src="//www.bilibili.com/blackboard/player.html?aid=16193378&cid=26431478&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe> -->
 
 </div>
 <div class="box2">
