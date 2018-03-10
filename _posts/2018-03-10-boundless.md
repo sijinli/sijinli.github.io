@@ -17,7 +17,7 @@ category: note
 div{margin:0;padding:0}
 #container{width:800px;height:500px;border:1px solid #ccc;}
 #container .box1{width:544px;height:415px;float:left}
-#container .box2{margin-left:20px;width:170px;height:415px;float:left;font:10}
+#container .box2{margin-left:20px;width:180px;height:415px;float:left;font:10}
 </style>
 </head>
 <body>
