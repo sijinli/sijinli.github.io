@@ -23,6 +23,7 @@ title: Resources
 [18]:http://www.di.ens.fr/~fbach/2017_SIOPT_NonX.pdf
 [19]:http://phontron.com/class/nn4nlp2017/schedule.html
 [20]:https://katefvision.github.io/#readings
+[21]: http://shici.store/chinese-poetry
 * auto-gen TOC:
 {:toc}
 
@@ -109,8 +110,7 @@ title: Resources
 
 + <a href="/resources/papers/system">Machine Learning System</a>
 
-
-
+[中国诗词库][21]
 
 
 # Code/Tools
