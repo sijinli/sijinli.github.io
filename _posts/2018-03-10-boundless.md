@@ -2,7 +2,7 @@
 layout: post
 title: 无涯 ，好听
 comments: true
-my_tags: [life]
+tags: [life]
 slug: note
 category: note
 ---

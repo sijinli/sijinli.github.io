@@ -2,7 +2,7 @@
 layout: post
 title: Consciousness
 comments: true
-my_tags: [note,movie]
+tags: [note,movie]
 category: note
 tags: [note,movie]
 ---

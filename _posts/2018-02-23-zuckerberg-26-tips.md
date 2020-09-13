@@ -2,7 +2,7 @@
 layout: post
 title: 扎克伯格提高效率26式
 comments: true
-my_tags: [note]
+tags: [note]
 slug: note
 tags: [note]
 category: note

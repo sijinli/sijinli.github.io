@@ -6,24 +6,12 @@ layout: default
 
 
 
-<!-- <div> -->
-<!--   <h4> all tags: -->
-<!--   {% for post in site.my_tags %} -->
-<!--     {% assign tag_name = post.name %} -->
-<!--     <a href="{{ post.url }}">{{ tag_name }}</a> -->
-<!--     {% endfor %} -->
-<!--   </h4> -->
-<!-- </div> -->
 
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
 {% assign tag_words = site_tags | split:',' | sort %}
 
-<!-- <h3> {{ site_tags }} <h3> -->
-<!--  <h3> here--{{ tag_words[0] }} --here </h3> -->
-<!-- <h3> {{ tag_words }} <h3> -->
-<!-- <h2>debug_line --------------------------------<h2> -->
 
 <div id="tags">
   <h1>Tags</h1>

@@ -2,7 +2,7 @@
 layout: post
 title: Discovery Reinforcement Learning Algorithms
 comments: true
-my_tags: [study]
+tags: [study]
 slug: study
 category: life
 ---

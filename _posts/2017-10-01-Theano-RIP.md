@@ -2,7 +2,7 @@
 layout: post
 title: Theano R.I.P
 comments: true
-my_tags: [note,python]
+tags: [note,python]
 slug: note
 category: note
 tags: [note,python]

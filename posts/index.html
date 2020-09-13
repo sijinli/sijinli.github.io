@@ -3,6 +3,18 @@ layout: page
 title: Blog Posts
 ---
 
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+{% assign tag_words = site_tags | split:',' | sort %}
+
+  <ul class="tag-box inline">
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+  <li><a href="{{ site.url }}/pages/posts_by_tag.html#{{ this_word | cgi_escape }}">{{ this_word }} <sup><span>{{ site.tags[this_word].size }}</span> </sup> </a></li>
+  {% endunless %}{% endfor %}
+  </ul>
+
+
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}

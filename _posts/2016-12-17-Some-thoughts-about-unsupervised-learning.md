@@ -2,7 +2,7 @@
 layout: post
 title: Some thoughts about unsupervised learning
 comments: true
-my_tags: [note,movie,dl]
+tags: [note,movie,dl]
 category: deeplearning
 tags: [note,movie,deep learning]
 ---
