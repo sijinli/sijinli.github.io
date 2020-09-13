@@ -30,17 +30,18 @@ layout: default
 
 {{content}}
 
-<p class="entry-tags">
-  <ul class="post-tag-box inline">
+
+<ul class="post-tag-box inline">
+
   {% for tag in page.tags %}
-  <li> <a href="{{ site.url }}/pages/posts_by_tag.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }} 
-  </a></li>
-  {% unless forloop.last %} &bull;
-  {% endunless %}{% endfor %}
-  </ul>
-</p>
+   <li><a href="{{ site.url }}/pages/posts_by_tag.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }} </a></li>
+   {% unless forloop.last %}
+   {% endunless %}
+   {% endfor %}
+</ul>
 
 
- <!-- <p class="m-t-3 text-muted font-italic"> -->
- <!--    <small>Category: {% if category_content %}  </small>{{ category_content }}<small>{% endif %}, tags: {{ tags_content }}</small> -->
- <!--  </p> -->
+
+<!-- <p class="m-t-3 text-muted font-italic"> -->
+  <!--    <small>Category: {% if category_content %}  </small>{{ category_content }}<small>{% endif %}, tags: {{ tags_content }}</small> -->
+  <!--  </p> -->
