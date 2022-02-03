@@ -57,6 +57,7 @@ title: Resources
 
 # Course
 [Standford NLP course][19]
+
 [Robotics 501: Mathematics for Robotics by University of Michigan][22]
 
 # Good Tutorial
