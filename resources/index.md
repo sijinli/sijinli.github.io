@@ -24,6 +24,7 @@ title: Resources
 [19]:http://phontron.com/class/nn4nlp2017/schedule.html
 [20]:https://katefvision.github.io/#readings
 [21]: http://shici.store/chinese-poetry
+[22]: https://github.com/michiganrobotics/rob501
 * auto-gen TOC:
 {:toc}
 
@@ -56,7 +57,7 @@ title: Resources
 
 # Course
 [Standford NLP course][19]
-
+[Robotics 501: Mathematics for Robotics by University of Michigan][22]
 
 # Good Tutorial
 ---
