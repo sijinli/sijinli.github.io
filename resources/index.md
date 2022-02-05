@@ -16,103 +16,25 @@ title: Resources
 [11]:http://ipg.epfl.ch/~seeger/lapmalmainweb/papers/bayesgp-tut.pdf
 [12]:http://www.ualberta.ca/~szepesva/RLBook/Errata.pdf
 [13]:http://karpathy.github.io/2016/05/31/rl/
-[14]:http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html
 [15]:http://people.eecs.berkeley.edu/~pabbeel/nips-tutorial-policy-optimization-Schulman-Abbeel.pdf
 [16]:http://rll.berkeley.edu/deeprlcourse/docs/nuts-and-bolts.pdf
 [17]:http://rll.berkeley.edu/deeprlcourse/#syllabus
 [18]:http://www.di.ens.fr/~fbach/2017_SIOPT_NonX.pdf
 [19]:http://phontron.com/class/nn4nlp2017/schedule.html
-[20]:https://katefvision.github.io/#readings
 [21]: http://shici.store/chinese-poetry
 [22]: https://github.com/michiganrobotics/rob501
+
 * auto-gen TOC:
 {:toc}
 
+# <a href="/resources/book">Books</a>
 
-<!-- # Books  -->
-<!-- --- -->
+# <a href="/resources/papers">Paper</a>
 
-<!-- <html> -->
-<nav>
-	<li><a href="/resources/book">Books</a></li>
-</nav>
-<!-- </html> -->
+#  <a href="/resources/course">Course and Tutorial</a>
 
-### Reinforcement Learning
+# <a href="/resources/tools/code">Code and Tools</a>
+# 有趣的网站
 
-[Reinforcement Learning: An introduction][14]
-
-
-[Deep Reinforcement Learning and Control: Spring 2017, CMU 10703][20]
-
-### Optimization
-
-[Convex Optimization by Sebastien Bubeck][1]
-
-[Stochastic Variance-Reduced Optimization for Machine Learning][18]
-
-
-### Statistics
-[Statistical Models Theory and Practice][5]
-
-# Course
-[Standford NLP course][19]
-
-[Robotics 501: Mathematics for Robotics by University of Michigan][22]
-
-# Good Tutorial
----
-
-### SVM && Structed Prediction
-
-[SSVM tutorial handout by Andrea Vedaldi,University of Oxford][2]
-
-### SVM && regression
-[A Tutorial on Suppport Vector Regression][6]
-
-# Algorithm
----
-
-### Clustering
-[Clustering by fast search and find fo density peak][3]
-
-
-# Deep Learning
-
-## Discussion
-
-[Jordan at reddit][8]
-
-[Hinton at reddit][7]       
-
-[Yenn LeCun at reddit][9]
-
-[Yoshua Bengio at reddit][10]
-
-# Reinforce Learning
-
-[Algorithms for Reinforcement Learning, by Csaba Szepesvari][12]
-
-[Deep Reinforcement Learning: Pong from Pixels][13]
-
-[tutorial on policy gradient metho by Pieter Abbeel and John Schulmand][15]
-
-[nuts and bots of Deep RL research by John][16]
-
-[MIT Deep learning course][17]
-
-# Paper/article collection
----  
-  
-+ [Top 100 papers in Vision Science][4]
-
-+ [Gaussian Process for machine learning][11]
-
-# Useful Repository
-
-+ <a href="/resources/papers/system">Machine Learning System</a>
-
-[中国诗词库][21]
-
-
-# Code/Tools
++ [中国诗词库][21]
+  最全的中华古典文集数据库
