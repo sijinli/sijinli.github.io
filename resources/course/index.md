@@ -11,20 +11,24 @@ title: Course and Tutorial
 [6]:http://rll.berkeley.edu/deeprlcourse/#syllabus
 
 # Course
+---
+
 + [Standford NLP course][1]
 
 + [Robotics 501: Mathematics for Robotics by University of Michigan][2]
 
 + [MIT Deep learning course][6]
+
 # Good Tutorial
 ---
 
 + [tutorial on policy gradient metho by Pieter Abbeel and John Schulmand][5]
 
-### SVM && Structed Prediction
+## SVM && Structed Prediction
 
-[SSVM tutorial handout by Andrea Vedaldi,University of Oxford][3]
++ [SSVM tutorial handout by Andrea Vedaldi,University of Oxford][3]
 
-### SVM && regression
-[A Tutorial on Suppport Vector Regression][4]
+## SVM && regression
+
++ [A Tutorial on Suppport Vector Regression][4]
 
