@@ -23,7 +23,11 @@ title: Books
 # Reinforcement Learning
 
 [Reinforcement Learning: An introduction][2]
-[Deep Reinforcement Learning and Control: Spring 2017, CMU 10703][20]
+
+
+[Deep Reinforcement Learning and Control: Spring 2017, CMU 10703][10]
+
+
 # Robotics
 
 [State Estimation for robotics][8]
