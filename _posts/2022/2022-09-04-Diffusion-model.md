@@ -76,7 +76,7 @@ p_\theta(x_0, x_1, x_2, ..., x_T) = p_{\theta}(x_T) \prod_{t=1}^{T} p_{\theta}(x
 $$
 
 
-我们希望通过优化$$\theta$$, 从而 $$p_\theta(x)=\int{p_\theta(x_0,x_1,...,x_T)dx_{1..t}}$$ 与 $$p^{*}(x)$$足够接近。
+我们希望通过优化$$\theta$$, 从而 $$p_\theta(x_0)=\int{p_\theta(x_0,x_1,...,x_T)dx_{1..t}}$$ 与 $$p^{*}(x)$$足够接近。
 
 比如我们求解$$\theta$$来最小化 $$D_{KL}(p^{*}, p_\theta)$$
 这等效于最大化
@@ -154,7 +154,7 @@ $$
 $$
 q_\phi(x_{t-1}|x_t,x_0)
 $$
-可以其有close form的表达，从而能够高效的计算。
+可以具有close form的表达，从而能够高效的计算。
 
 $$
 \begin{align}
