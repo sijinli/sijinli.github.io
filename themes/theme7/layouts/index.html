@@ -1,0 +1,25 @@
+{{ define "main" }}
+<main aria-role="main">
+    <!-- <header class="homepage_header"> -->
+    <!-- <h1>{{ .Title }}</h1> -->
+    <!-- {{ with .Params.subtitle }} -->
+    <!-- <span class="subtitle">{{ . }}</span> -->
+    <!-- {{ end }} -->
+  </header>
+  <!-- <aside> -->
+  <!-- {{ .TableOfContents }} -->
+  <!-- </aside> -->
+  <div class="homepage_content">
+    {{ .Content }}
+  </div>
+  <!-- <div> -->
+  <!--   THsi is for main -->
+  <!--   {{ range .Pages }} -->
+  <!--   <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>   -->
+  <!--   <p> -->
+  <!--   {{ .Summary | safeHTML}} -->
+  <!--   </p> -->
+  <!--   {{ end }} -->
+  <!-- </div> -->
+</main>
+{{ end }}

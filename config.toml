@@ -1,0 +1,5 @@
+# canonifyurls = true
+languageCode = 'en-us'
+title = 'itsuper7 blog'
+theme = "theme7"
+hasCJKLanguage = true
