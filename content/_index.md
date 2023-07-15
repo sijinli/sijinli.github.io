@@ -1,5 +1,5 @@
 ---
-title: "Welcome to this new world"
+title: "Mathematics, Machine Learning and Programming"
 draft: false
 ---
 

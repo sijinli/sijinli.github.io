@@ -82,6 +82,15 @@ main{
     display: flex;  
     align-items: center;  
 }
+.blog__categories span{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color:#777777;
+}
+.blog__categories a{
+    color:#fcfcfc;
+}
+
 .blog__container{
 }
 .blog__title{
@@ -110,8 +119,8 @@ main{
     margin: 10px 0;  
 }
 .homepage_header{
-    background: #0000
-    color:#fcfcfc
+    background: #0000;
+    color:#fcfcfc;
 }
 
 .homepage_content{

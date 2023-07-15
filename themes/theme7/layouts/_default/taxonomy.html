@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
   <div>
-    <h2>{{ .Title }}</h2>
+    <h2>{{ .Title | humanize}}</h2>
   </div>
   <ul class="taxonomy_box inline">
   {{ if eq .Type "categories" }}
