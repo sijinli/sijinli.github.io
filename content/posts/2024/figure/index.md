@@ -2,7 +2,7 @@
 title: "Figure 01"
 date: 2024-03-14T12:28:00+08:00
 categories: ["Embodied AI"]
-draft: true
+draft: false
 ---
 
 
