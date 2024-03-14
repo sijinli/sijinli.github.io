@@ -2,7 +2,7 @@
 title: "网站迁移"
 date: 2023-05-02T19:16:54+08:00
 categories: 
-- "machine-learning"
+- "note"
 draft: false
 math: true
 authors:

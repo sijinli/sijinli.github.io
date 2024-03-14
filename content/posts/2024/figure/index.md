@@ -21,7 +21,7 @@ draft: false
 |:-|:-:|:-|:-|
 | OpenAI Model               |text,image  |text/command|10|
 | Neural network policy      |image       |24 DOF actions |200|
-|Whole body control|actions  |24 DOF actions,...  |joint torques|1000|
+|Whole body control|24 DOF actions,... |joint torques|1000|
 
 
 
