@@ -1,5 +1,5 @@
 body {  
-    background-color: #fcfcfc;  
+    background-color: #f7f7f7;  
     color: #333;  
     font-size: 125%;  
     line-height: 1.5;  
@@ -15,21 +15,24 @@ body {
     align-items: center;  
     justify-content: space-between;  
     height: 25px;  
-    background: #777777;
+    background: #7F7F7F;
     padding: 10px;  
 }
 .navbar__left{  
     display: flex;
+    border-radius: 11px;
     background-color: #777777;  
 }
 .navbar__left a{
-    color: #f0f0f0;  
+    color: #f0f0f0;
 }
+
 .navbar__right{  
     display: flex;
+    border-radius: 11px;
     background-color: #777777;  
     color: #fcfcfc;  
-}  
+}
 a{  
     text-decoration: none !important;  
     color: black;  
@@ -119,8 +122,8 @@ main{
     margin: 10px 0;  
 }
 .homepage_header{
-    background: #0000;
-    color:#fcfcfc;
+    background: #000;
+    color:#000;
 }
 
 .homepage_content{
