@@ -23,6 +23,7 @@ GPT1-3 以及 Bert
 ### Decoder Only
 ### How to handle long context
 # 视觉大模型  SoRA 
+# 哪些事情大模型能够做
 # 行业
 
 [1]:https://mp.weixin.qq.com/s/_ZvyxRpgIA4L4pqfcQtPTQ
