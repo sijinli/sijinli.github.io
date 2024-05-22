@@ -2,7 +2,7 @@
 title: "计划、指导、围棋、ChatGPT"
 date: 2024-05-21T23:23:45+08:00
 categories: ["note", "life"]
-draft: true
+draft: false
 ---
 
 很多时候，我们看起来比较合理的细节指导，其实并不是最适合事物发展的最优路径。
