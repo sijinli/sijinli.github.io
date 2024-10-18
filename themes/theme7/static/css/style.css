@@ -15,13 +15,13 @@ body {
     align-items: center;  
     justify-content: space-between;  
     height: 25px;  
-    background: #7F7F7F;
+    background: #000000;
     padding: 10px;  
 }
 .navbar__left{  
     display: flex;
     border-radius: 11px;
-    background-color: #777777;  
+    background-color: #0000;  
 }
 .navbar__left a{
     color: #f0f0f0;
@@ -30,13 +30,14 @@ body {
 .navbar__right{  
     display: flex;
     border-radius: 11px;
-    background-color: #777777;  
+    background-color: #00000;  
     color: #fcfcfc;  
 }
 a{  
     text-decoration: none !important;  
     color: black;  
-}  
+}
+
 .navbar__right a{  
     text-decoration: none;  
     font-size: 14px;  
@@ -48,9 +49,14 @@ a{
     text-decoration: underline;  
     font-weight: bold;  
 }  
-main{  
-    margin: 0 200px;  
-}  
+main {
+    margin: 0 auto;  /* 自动水平居中 */
+    padding: 0 15%;   /* 左右各15%的内边距 */
+    max-width: 1200px; /* 可选：限制最大宽度 */
+}
+.date {
+    color: #047f7f; /* 淡蓝色 */
+}
 .author-image{  
     object-fit: cover;  
     border-radius: 50%;  

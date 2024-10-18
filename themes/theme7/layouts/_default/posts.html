@@ -5,9 +5,15 @@
   {{range (where .Site.RegularPages "Type" "posts").ByDate.Reverse}}
   {{if .Title}}
   <li>
-    {{ dateFormat "2006-01-02" .Date }}
-    <a href="{{ .RelPermalink }}"> {{ .Title }}</a> </li>
-  {{end}}
-  {{end}}
-  </main>
+    <span class="date">
+<strong>  {{ dateFormat "2006-01-02" .Date }}</strong></span>
+    <a href="{{ .RelPermalink }}"> {{ .Title }}</a>
+  </li>
+
+  <!--  <strong>{{ dateFormat "2006-01-02" .Date }}</strong> -->
+  <!-- <a href="{{ .RelPermalink }}">{{ .Title }}</a> -->
+  <!-- <p>{{ .Summary }}</p> <\!-- 显示文章的第一段 -\-> -->
+    {{end}}
+    {{end}}
+</main>
 {{ end }}
