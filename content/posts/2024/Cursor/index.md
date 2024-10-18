@@ -2,7 +2,7 @@
 title: "Cursor/Stackoverflow"
 date: 2024-10-08T17:22:57+08:00
 categories: ["AI","thoughts","programming"]
-draft: true
+draft: false
 ---
 
 最近一直在使用Cursor，在这先简单说一下体验。 从编程实现的角度来说，的确可以让人很快上手一个语言。
