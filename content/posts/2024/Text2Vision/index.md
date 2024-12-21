@@ -31,7 +31,7 @@ math: true
 从文本到意境的映射不是1对1的，如果我们要来构建这个映射，应该如何做呢？
 作为一个机器学习的问题，我们总希望$\mathcal{M}$尽可能平滑，即对于 $c_i, c_j \in \mathcal{C}$, 如果$c_i, c_j$在$\mathcal{C}$里比较近，我们希望生成的$x_i, x_j$也会比较近。
 
-$$ \forall \|c_i,c_j\| \le \epsilon, x_i=\mathcal{M}(c_i),x_j=\mathcal{M}(c_j), s.t.,  \|x_i, x_j\| \le \gamma $$
+$$ \forall \|c_i,c_j\|\_{\mathcal{C}} \le \epsilon, x_i=\mathcal{M}(c_i),x_j=\mathcal{M}(c_j), s.t.,  \|x_i, x_j\|\_{\mathcal{X}} \le \gamma $$
 
 <!-- 既然小说在每一个人的意境里是不一样的，那其的价值在哪呢？ -->
 <!-- 一方面受致于传播手段，这么多年间，也没有合适的方式来将信息完整的记录来下。 -->
@@ -39,13 +39,12 @@ $$ \forall \|c_i,c_j\| \le \epsilon, x_i=\mathcal{M}(c_i),x_j=\mathcal{M}(c_j), 
 
 
 
-不过这样的平滑约束，并不是很好直接进行建模。<!-- 这里简单回顾一下， diffusion 以及condition diffusion的一些技巧。 -->
+这样的平滑约束，并不是很好直接进行建模, 不过我们可以考虑对于$\mathcal{C}、\mathcal{M}$分别进行建模，将其映射到对应的流形上去（最好还是欧氏空间的），
+再建立这两个流形之间的映射。
 
 之前[浅谈 Diffusion Model](https://sijinli.github.io/blog_arxiv_2023.github.io//blog/2022/09/04/note)里有提到,
 diffusion使得我们可以对$z\sim \mathcal{N}(0, I)$的采样从而实现对于数据分布的采样$\text{dp}^{-1}(z)\rightarrow x\sim p(x)$。
 然而，这样的生成是随机的，我们没有办法控制生成的图片。
-
-
 
 [Diffusion Models Beat GANs on Image Synthesis][4] 提出了使用classifier来引导$\text{dp}^{-1}$, 将逆向的$p_{\theta}(x_t|x_{t+1})$
 替换成为$p_{\theta,\phi}(x_t|x_{t+1}, c)$，s.t., 
