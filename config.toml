@@ -3,3 +3,12 @@ languageCode = 'en-us'
 title = 'itsuper7 blog'
 theme = "theme7"
 hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[outputFormats.JSON]
+MediaType="application/json"
+BaseName="searchindex"
+IsPlainText=true
+

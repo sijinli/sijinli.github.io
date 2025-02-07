@@ -1,9 +1,19 @@
 {{ define "main" }}
-<!-- {{ partial "search-form.html" . }} -->
-
-<ul id="results">
-    <li>
-        Enter a keyword above to search this site.
-    </li>
-</ul>
+<!-- <input type="text" id="searchInput" placeholder="输入关键词搜索..."> -->
+<div id="searchResults"></div>
+<script src="/js/flexsearch.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search)
+  const query = params.get('query')
+  if (query) {
+      loaddata().then(
+	  response => {
+	      displayResults(query);
+	  }
+      )
+  }
+    document.getElementById("search-input").addEventListener("input", function(e) {
+	displayResults(e.target.value, {enrich:true});
+    });
+</script>
 {{ end }}
