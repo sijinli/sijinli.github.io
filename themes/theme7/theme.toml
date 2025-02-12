@@ -16,3 +16,13 @@ min_version = "0.41.0"
   name = ""
   homepage = ""
   repo = ""
+
+# Copy the follow code to config.toml in the root
+# [outputs]
+# home = ["HTML", "JSON"]
+
+# [outputFormats.JSON]
+# MediaType="application/json"
+# BaseName="searchindex"
+# IsPlainText=true
+
